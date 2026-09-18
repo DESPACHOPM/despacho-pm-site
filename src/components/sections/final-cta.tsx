@@ -34,8 +34,9 @@ export function FinalCta() {
           <br />
           {MEETING_NOTE}
           <br />
-          Treinta minutos, sin costo, y si tiene sentido trabajar juntos,
-          damos los siguientes pasos.
+          Treinta minutos, sin costo.
+          <br />
+          Si tiene sentido trabajar juntos, damos los siguientes pasos.
         </p>
       </Reveal>
 
