@@ -23,7 +23,9 @@ export function Footer() {
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-surface/70">
               Estructura financiera para profesionistas y dueños de negocio
-              en México. Agente autorizado ante la CNSF, cédula M370232.
+              en México.
+              <br />
+              Agente autorizado ante la CNSF, cédula M370232.
             </p>
           </div>
 

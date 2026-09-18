@@ -30,8 +30,12 @@ export function FinalCta() {
 
       <Reveal delay={0.1}>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-foreground/80">
-          Si entiendes eso, podemos conversar. {MEETING_NOTE} Treinta
-          minutos, sin costo, para ver si tiene sentido trabajar juntos.
+          Si entiendes eso, podemos conversar.
+          <br />
+          {MEETING_NOTE}
+          <br />
+          Treinta minutos, sin costo, y si tiene sentido trabajar juntos,
+          damos los siguientes pasos.
         </p>
       </Reveal>
 
