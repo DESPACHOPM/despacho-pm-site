@@ -2,7 +2,7 @@ export const WHATSAPP_URL =
   "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20recibir%20una%20asesor%C3%ADa.%0A%0AQuiero%20agendar%20una%20conversaci%C3%B3n%20cuando%20sea%20posible.%0A%0A%C2%A1Gracias%21";
 
 export const WHATSAPP_URL_CONTADORES =
-  "https://wa.me/5215621270724?text=Hola%2C%20soy%20contador%2Fa%20o%20fiscalista%20y%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20platicar%20sobre%20una%20alianza.%0A%0A%C2%A1Gracias%21";
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM%20y%20me%20interesa%20platicar%20sobre%20una%20alianza.%0A%0A%C2%A1Gracias%21";
 
 export const WHATSAPP_URL_MODALIDADES =
   "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20informaci%C3%B3n%20sobre%20Modalidad%2040%20/%20Modalidad%2010%20del%20IMSS.%0A%0A%C2%A1Gracias%21";
@@ -12,7 +12,7 @@ export const MEETING_NOTE = "Agenda por WhatsApp.";
 export const NAV_LINKS = [
   { href: "/#pilares", label: "Lo que hacemos" },
   { href: "/#historia", label: "Mi historia" },
-  { href: "/#contadores", label: "Contadores" },
+  { href: "/#alianzas", label: "Alianzas" },
   { href: "/#testimonios", label: "Clientes" },
   { href: "/#preguntas", label: "Preguntas" },
 ];
@@ -107,16 +107,16 @@ export const TESTIMONIALS = [
 ];
 
 export const ACCOUNTANTS = {
-  eyebrow: "Para contadores y fiscalistas",
-  heading: "¿Eres contador o fiscalista? No compito con tu relación con el cliente. La complemento.",
-  body: "Tú llevas la estrategia fiscal. Yo aporto la estructura financiera que la hace más completa. Sin fricciones, sin intermediarios, sin exclusividad.",
+  eyebrow: "Alianzas estratégicas",
+  heading: "¿Tienes una relación de confianza con tus clientes? No compito con ella. La complemento.",
+  body: "Contadores, fiscalistas, abogados, agentes inmobiliarios, notarios, asesores: tú aportas la relación y el expertise en tu área. Yo aporto la estructura financiera que la hace más completa. Sin fricciones, sin intermediarios, sin exclusividad.",
   points: [
-    "Actualización constante sobre cambios fiscales y regulaciones del SAT",
-    "Estrategias para maximizar deducciones dentro de la ley",
-    "Herramientas para agilizar la declaración anual de tus clientes",
+    "Actualización constante en temas fiscales y financieros relevantes para tus clientes",
+    "Estrategias para maximizar deducciones y beneficios fiscales dentro de la ley",
+    "Herramientas y contenido que le dan valor extra a la relación con tus clientes",
     "Asesoría especializada en casos complejos",
     "Red de referidos entre profesionales",
-    "Enfoque en prevenir riesgos de auditoría, no solo en reaccionar a ellos",
+    "Enfoque en prevenir riesgos financieros y patrimoniales, no solo en reaccionar a ellos",
   ],
   cta: "¡Seamos aliados!",
 };

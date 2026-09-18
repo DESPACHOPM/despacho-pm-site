@@ -8,7 +8,7 @@ import { ACCOUNTANTS, WHATSAPP_URL_CONTADORES } from "@/lib/site-data";
 
 export function Accountants() {
   return (
-    <section id="contadores" className="mx-auto max-w-6xl px-(--spacing-gutter) py-(--spacing-section)">
+    <section id="alianzas" className="mx-auto max-w-6xl px-(--spacing-gutter) py-(--spacing-section)">
       <div className="overflow-hidden rounded-3xl border border-border bg-surface">
         <Reveal>
           <div className="relative h-48 w-full sm:h-64">
