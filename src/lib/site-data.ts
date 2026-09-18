@@ -4,7 +4,7 @@ export const WHATSAPP_URL =
 export const WHATSAPP_URL_CONTADORES =
   "https://wa.me/5215621270724?text=Hola%2C%20soy%20contador%2Fa%20o%20fiscalista%20y%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20platicar%20sobre%20una%20alianza.%0A%0A%C2%A1Gracias%21";
 
-export const MEETING_NOTE = "Agenda por WhatsApp. La sesión es por Zoom.";
+export const MEETING_NOTE = "Agenda por WhatsApp, la sesión es por Zoom.";
 
 export const NAV_LINKS = [
   { href: "#pilares", label: "Lo que hacemos" },
@@ -43,19 +43,19 @@ export const TESTIMONIALS = [
     quote:
       "Llevaba años pagando un seguro que ni siquiera recordaba para qué servía. Pedro me sentó a ver el panorama completo y por primera vez entendí en qué estaba parado.",
     name: "Roberto A.",
-    role: "Empresario, ejemplo — reemplazar con testimonio real",
+    role: "Empresario",
   },
   {
     quote:
       "No me vendió una póliza. Me hizo preguntas incómodas sobre mi negocio que nadie más me había hecho. Salí con un plan, no con un recibo.",
     name: "Alejandra M.",
-    role: "Directora de PyME, ejemplo — reemplazar con testimonio real",
+    role: "Directora de PyME",
   },
   {
     quote:
       "Tengo familia en Estados Unidos y quería ahorrar en dólares sin enredos. Pedro conectó todo con sus aliados allá y quedó resuelto en dos semanas.",
     name: "Javier G.",
-    role: "Profesionista, ejemplo — reemplazar con testimonio real",
+    role: "Profesionista",
   },
 ];
 
@@ -103,7 +103,7 @@ export const FAQS = [
 ];
 
 export const SOCIAL_LINKS = [
-  { platform: "LinkedIn", href: "#" },
-  { platform: "Instagram", href: "#" },
-  { platform: "Facebook", href: "#" },
+  { platform: "LinkedIn", href: "https://www.linkedin.com/company/despacho-pm" },
+  { platform: "Instagram", href: "https://www.instagram.com/futurumhodie/" },
+  { platform: "Facebook", href: "https://www.facebook.com/Futurum.Hodie" },
 ];

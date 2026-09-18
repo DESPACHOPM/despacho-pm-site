@@ -35,9 +35,7 @@ export function Hero() {
                   Agenda tu diagnóstico gratuito
                 </a>
               </Button>
-              <p className="text-sm text-muted">
-                {MEETING_NOTE} 30-40 min, sin costo.
-              </p>
+              <p className="text-sm text-muted">{MEETING_NOTE}</p>
             </div>
           </Reveal>
 

@@ -64,6 +64,8 @@ export function Footer() {
                 <li key={social.platform}>
                   <a
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-surface/80 hover:text-accent"
                     aria-label={social.platform}
                   >

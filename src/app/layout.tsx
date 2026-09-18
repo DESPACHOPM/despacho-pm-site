@@ -11,7 +11,7 @@ import "@fontsource/lato/700.css";
 import "@fontsource/lato/900.css";
 import "./globals.css";
 
-const siteUrl = "https://www.despachopm.com";
+const siteUrl = "https://www.futurumhodie.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -35,12 +35,21 @@ export const metadata: Metadata = {
     siteName: "Despacho PM",
     locale: "es_MX",
     type: "website",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Despacho PM — Estructura financiera, no solo seguros",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Despacho PM | Estructura financiera, no solo seguros",
     description:
       "Ahorro estructurado, protección personal y protección empresarial para profesionistas y dueños de negocio en México.",
+    images: ["/images/og-image.png"],
   },
 };
 
