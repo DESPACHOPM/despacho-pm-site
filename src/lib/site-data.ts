@@ -41,21 +41,27 @@ export const CREDENTIALS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Llevaba años pagando un seguro que ni siquiera recordaba para qué servía. Pedro me sentó a ver el panorama completo y por primera vez entendí en qué estaba parado.",
-    name: "Roberto A.",
-    role: "Empresario",
+      "Muchas gracias Pedro, por tu apoyo al brindarme la orientación y alternativas, para elegir un plan de protección e inversión, adecuado a mi edad y economía.",
+    name: "Enriqueta Glz",
+    role: "",
   },
   {
     quote:
-      "No me vendió una póliza. Me hizo preguntas incómodas sobre mi negocio que nadie más me había hecho. Salí con un plan, no con un recibo.",
-    name: "Alejandra M.",
-    role: "Directora de PyME",
+      "A quien corresponda, hago de conocimiento que he recibido personalmente la atención profesional de varios temas del Sr. Pedro Miguel Monterrubio, a quien recomiendo muy ampliamente, ya que lo considero gente de gran confianza, seriedad y un gran profesionalismo.",
+    name: "Jaquelina Alcalá",
+    role: "",
   },
   {
     quote:
-      "Tengo familia en Estados Unidos y quería ahorrar en dólares sin enredos. Pedro conectó todo con sus aliados allá y quedó resuelto en dos semanas.",
-    name: "Javier G.",
-    role: "Profesionista",
+      "Fue una muy buena plática. Me llevé claridad sobre cómo una estructura financiera puede proteger lo que uno ha construido. Si alguien me pregunta y está buscando ordenar su futuro, lo enviaría sin dudarlo.",
+    name: "Fco. Vargas Sánchez",
+    role: "",
+  },
+  {
+    quote:
+      "Lo que más me sorprendió fue la actitud humana y comprensiva durante toda la conversación. No me sentí presionado, sino acompañado. Me hizo ver la importancia de tener una actitud más proactiva que reactiva con mi protección familiar.",
+    name: "Profesionista",
+    role: "",
   },
 ];
 

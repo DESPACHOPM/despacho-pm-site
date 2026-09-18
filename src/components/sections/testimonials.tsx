@@ -16,17 +16,9 @@ export function Testimonials() {
         </h2>
       </Reveal>
 
-      <Reveal delay={0.14}>
-        <p className="mt-3 max-w-2xl text-sm text-muted">
-          Nota: estos son ejemplos de formato mientras se incorporan los
-          testimonios reales de{" "}
-          <span className="italic">futurumhodie.com/reseñas</span>.
-        </p>
-      </Reveal>
-
-      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-2">
         {TESTIMONIALS.map((testimonial, index) => (
-          <Reveal key={testimonial.name} delay={0.18 + index * 0.06}>
+          <Reveal key={testimonial.name} delay={0.14 + index * 0.06}>
             <Card className="flex h-full flex-col justify-between">
               <p className="text-[15px] leading-relaxed text-foreground/85">
                 &ldquo;{testimonial.quote}&rdquo;
@@ -35,7 +27,9 @@ export function Testimonials() {
                 <p className="font-heading text-base text-primary">
                   {testimonial.name}
                 </p>
-                <p className="text-xs text-muted">{testimonial.role}</p>
+                {testimonial.role && (
+                  <p className="text-xs text-muted">{testimonial.role}</p>
+                )}
               </footer>
             </Card>
           </Reveal>
