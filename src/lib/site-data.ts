@@ -4,10 +4,14 @@ export const WHATSAPP_URL =
 export const WHATSAPP_URL_CONTADORES =
   "https://wa.me/5215621270724?text=Hola%2C%20soy%20contador%2Fa%20o%20fiscalista%20y%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20platicar%20sobre%20una%20alianza.%0A%0A%C2%A1Gracias%21";
 
+export const WHATSAPP_URL_MODALIDADES =
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20informaci%C3%B3n%20sobre%20Modalidad%2040%20/%20Modalidad%2010%20del%20IMSS.%0A%0A%C2%A1Gracias%21";
+
 export const MEETING_NOTE = "Agenda por WhatsApp.";
 
 export const NAV_LINKS = [
   { href: "#pilares", label: "Lo que hacemos" },
+  { href: "#modalidades", label: "Modalidad 40 y 10" },
   { href: "#historia", label: "Mi historia" },
   { href: "#contadores", label: "Contadores" },
   { href: "#testimonios", label: "Clientes" },
@@ -35,6 +39,31 @@ export const PILLARS = [
       "Continuidad del negocio si tú faltas, te incapacitas o necesitas salir a tiempo: ahorro empresarial y cobertura para socios y personal clave.",
     image: "/images/pillar-proteccion-empresarial.jpg",
     imageAlt: "Dos socios de negocio revisando documentos en una sala de juntas",
+  },
+];
+
+export const IMSS_MODALITIES = [
+  {
+    title: "Modalidad 40",
+    subtitle: "Continuación voluntaria en el IMSS",
+    description:
+      "Si dejaste de cotizar y estás cerca del retiro, puedes seguir aportando voluntariamente bajo la Ley del Seguro Social de 1973 para aumentar tu salario base de cotización — y con eso, el monto de tu pensión mensual.",
+    points: [
+      "Pensión más alta al momento de jubilarte",
+      "Aplica si cotizaste bajo la Ley 73 y te faltan pocos años para el retiro",
+      "Te ayudo a calcular si te conviene y a tramitar la inscripción",
+    ],
+  },
+  {
+    title: "Modalidad 10",
+    subtitle: "Incorporación voluntaria al IMSS",
+    description:
+      "Si eres independiente, dueño de negocio o no tienes una relación laboral formal, puedes inscribirte por tu cuenta al régimen obligatorio del IMSS y acceder a sus prestaciones sin depender de un patrón.",
+    points: [
+      "Servicio médico, maternidad e incapacidades",
+      "Semanas cotizadas para tu pensión, aunque seas independiente",
+      "Aplica para socios, profesionistas y trabajadores no asalariados",
+    ],
   },
 ];
 
