@@ -8,20 +8,20 @@ export function Hero() {
       <div className="mx-auto grid max-w-6xl gap-16 px-(--spacing-gutter) pb-20 pt-16 md:pb-28 md:pt-24 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
           <Reveal>
-            <p className="mb-6 font-heading text-lg italic text-accent-dark">
+            <p className="mb-8 text-center font-heading text-lg italic text-accent-dark">
               &ldquo;Tu ingreso depende de ti. Tu estructura no debería.&rdquo;
             </p>
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h1 className="text-center font-heading text-4xl leading-[1.1] text-primary sm:text-5xl md:text-6xl">
+            <h1 className="text-center font-heading text-4xl leading-[1.15] text-primary sm:text-5xl md:text-6xl">
               Trabajo con profesionistas y dueños de negocio que quieren
               certeza financiera, no solo coberturas.
             </h1>
           </Reveal>
 
           <Reveal delay={0.16}>
-            <p className="mt-7 max-w-xl text-lg leading-relaxed text-foreground/80">
+            <p className="mx-auto mt-8 max-w-xl text-center text-lg leading-relaxed text-foreground/80">
               Antes de pensar en crecer, hay que saber qué estás protegiendo.
               Acompaño a personas y empresas en México a tomar decisiones
               financieras con base en estructura, no en corazonadas.
@@ -29,7 +29,7 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={0.24}>
-            <div className="mt-9 flex flex-col items-center gap-4">
+            <div className="mt-10 flex flex-col items-center gap-4">
               <Button asChild size="lg">
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                   Agenda tu diagnóstico gratuito
