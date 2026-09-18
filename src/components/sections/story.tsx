@@ -5,15 +5,17 @@ export function Story() {
   return (
     <section id="historia" className="bg-surface-alt/60">
       <div className="mx-auto max-w-3xl px-(--spacing-gutter) py-(--spacing-section)">
-        <Reveal>
-          <Badge>Mi historia</Badge>
-        </Reveal>
+        <div className="text-center">
+          <Reveal>
+            <Badge>Mi historia</Badge>
+          </Reveal>
 
-        <Reveal delay={0.08}>
-          <h2 className="mt-6 font-heading text-3xl text-primary sm:text-4xl">
-            Puedes tener buenos ingresos y aún así estar en riesgo financiero.
-          </h2>
-        </Reveal>
+          <Reveal delay={0.08}>
+            <h2 className="mt-6 font-heading text-3xl text-primary sm:text-4xl">
+              Puedes tener buenos ingresos y aún así estar en riesgo financiero.
+            </h2>
+          </Reveal>
+        </div>
 
         <div className="mt-8 space-y-6 text-lg leading-relaxed text-foreground/85">
           <Reveal delay={0.14}>

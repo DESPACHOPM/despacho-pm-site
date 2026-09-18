@@ -7,15 +7,17 @@ export function Faq() {
   return (
     <section id="preguntas" className="bg-surface-alt/60">
       <div className="mx-auto max-w-3xl px-(--spacing-gutter) py-(--spacing-section)">
-        <Reveal>
-          <Badge>Preguntas frecuentes</Badge>
-        </Reveal>
+        <div className="text-center">
+          <Reveal>
+            <Badge>Preguntas frecuentes</Badge>
+          </Reveal>
 
-        <Reveal delay={0.08}>
-          <h2 className="mt-6 font-heading text-3xl text-primary sm:text-4xl">
-            Antes de escribirme, quizá esto ya te lo responde.
-          </h2>
-        </Reveal>
+          <Reveal delay={0.08}>
+            <h2 className="mt-6 font-heading text-3xl text-primary sm:text-4xl">
+              Antes de escribirme, quizá esto ya te lo responde.
+            </h2>
+          </Reveal>
+        </div>
 
         <div className="mt-10 divide-y divide-border border-t border-border">
           {FAQS.map((faq, index) => (

@@ -25,15 +25,17 @@ export function ImssModalities() {
         </Reveal>
 
         <div className="p-8 sm:p-12">
-          <Reveal>
-            <Badge>Retiro IMSS</Badge>
-          </Reveal>
+          <div className="text-center">
+            <Reveal>
+              <Badge>Retiro IMSS</Badge>
+            </Reveal>
 
-          <Reveal delay={0.08}>
-            <h2 className="mt-6 max-w-2xl font-heading text-3xl text-primary sm:text-4xl">
-              Modalidad 40 y Modalidad 10: dos formas de mejorar tu relación con el IMSS.
-            </h2>
-          </Reveal>
+            <Reveal delay={0.08}>
+              <h2 className="mx-auto mt-6 max-w-2xl font-heading text-3xl text-primary sm:text-4xl">
+                Modalidad 40 y Modalidad 10: dos formas de mejorar tu relación con el IMSS.
+              </h2>
+            </Reveal>
+          </div>
 
           <Reveal delay={0.14}>
             <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-foreground/80">

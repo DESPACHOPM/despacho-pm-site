@@ -8,15 +8,17 @@ import { PILLARS } from "@/lib/site-data";
 export function Pillars() {
   return (
     <section id="pilares" className="mx-auto max-w-6xl px-(--spacing-gutter) py-(--spacing-section)">
-      <Reveal>
-        <Badge>Cómo trabajamos</Badge>
-      </Reveal>
+      <div className="text-center">
+        <Reveal>
+          <Badge>Cómo trabajamos</Badge>
+        </Reveal>
 
-      <Reveal delay={0.08}>
-        <h2 className="mt-6 max-w-2xl font-heading text-3xl text-primary sm:text-4xl">
-          Tres pilares. Un solo criterio: claridad antes que velocidad.
-        </h2>
-      </Reveal>
+        <Reveal delay={0.08}>
+          <h2 className="mx-auto mt-6 max-w-2xl font-heading text-3xl text-primary sm:text-4xl">
+            Tres pilares. Un solo criterio: claridad antes que velocidad.
+          </h2>
+        </Reveal>
+      </div>
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {PILLARS.map((pillar, index) => (

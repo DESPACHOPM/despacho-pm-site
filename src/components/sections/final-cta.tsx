@@ -21,7 +21,7 @@ export function FinalCta() {
       </Reveal>
 
       <Reveal delay={0.06}>
-        <h2 className="mt-10 font-heading text-3xl text-primary sm:text-4xl md:text-5xl">
+        <h2 className="mt-10 font-heading text-3xl leading-snug text-primary sm:text-4xl md:text-5xl">
           La tranquilidad financiera no es casualidad.
           <br className="hidden sm:block" /> Es resultado de decisiones bien
           tomadas.

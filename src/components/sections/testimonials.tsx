@@ -6,15 +6,17 @@ import { TESTIMONIALS } from "@/lib/site-data";
 export function Testimonials() {
   return (
     <section id="testimonios" className="mx-auto max-w-6xl px-(--spacing-gutter) py-(--spacing-section)">
-      <Reveal>
-        <Badge>Clientes</Badge>
-      </Reveal>
+      <div className="text-center">
+        <Reveal>
+          <Badge>Clientes</Badge>
+        </Reveal>
 
-      <Reveal delay={0.08}>
-        <h2 className="mt-6 max-w-2xl font-heading text-3xl text-primary sm:text-4xl">
-          Lo que dicen las personas con las que he trabajado.
-        </h2>
-      </Reveal>
+        <Reveal delay={0.08}>
+          <h2 className="mx-auto mt-6 max-w-2xl font-heading text-3xl text-primary sm:text-4xl">
+            Lo que dicen las personas con las que he trabajado.
+          </h2>
+        </Reveal>
+      </div>
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
         {TESTIMONIALS.map((testimonial, index) => (

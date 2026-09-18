@@ -25,15 +25,17 @@ export function Accountants() {
 
           <div className="grid gap-12 p-8 sm:p-12 lg:grid-cols-[1fr_1fr]">
             <div>
-              <Reveal>
-                <Badge>{ACCOUNTANTS.eyebrow}</Badge>
-              </Reveal>
+              <div className="text-center">
+                <Reveal>
+                  <Badge>{ACCOUNTANTS.eyebrow}</Badge>
+                </Reveal>
 
-              <Reveal delay={0.08}>
-                <h2 className="mt-6 font-heading text-3xl text-primary sm:text-4xl">
-                  {ACCOUNTANTS.heading}
-                </h2>
-              </Reveal>
+                <Reveal delay={0.08}>
+                  <h2 className="mt-6 font-heading text-3xl leading-snug text-primary sm:text-4xl">
+                    {ACCOUNTANTS.heading}
+                  </h2>
+                </Reveal>
+              </div>
 
               <Reveal delay={0.16}>
                 <p className="mt-5 max-w-md text-[15px] leading-relaxed text-foreground/80">
