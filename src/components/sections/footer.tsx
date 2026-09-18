@@ -82,7 +82,13 @@ export function Footer() {
         <div className="flex flex-col gap-3 text-xs text-surface/50 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} Despacho PM. Todos los derechos
-            reservados.
+            reservados.{" "}
+            <a
+              href="/aviso-de-privacidad"
+              className="underline underline-offset-2 hover:text-surface/80"
+            >
+              Aviso de Privacidad
+            </a>
           </p>
           <p>
             Built with Claude Web Builder by{" "}
