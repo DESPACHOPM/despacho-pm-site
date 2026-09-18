@@ -2,15 +2,15 @@ import { Reveal } from "@/components/motion/reveal";
 import { Check, X } from "lucide-react";
 
 const FOR_YOU = [
-  "Buscas claridad financiera, no otra póliza que archivar",
-  "Piensas en estrategia a largo plazo",
-  "Quieres decisiones bien estructuradas, aunque tomen su tiempo",
+  "Buscan claridad financiera, no otra póliza que archivar",
+  "Piensan en estrategia a largo plazo",
+  "Quieren decisiones bien estructuradas, aunque tomen su tiempo",
 ];
 
 const NOT_FOR_YOU = [
-  "Solo quieres cotizar y comparar precios",
-  "Buscas la póliza más barata, sin importar qué cubre",
-  "No tienes tiempo para una conversación honesta de 30 minutos",
+  "Solo buscan cotizar y comparar precios",
+  "Buscan la póliza más barata, sin importar qué cubre",
+  "No tienen tiempo para una conversación honesta de 30 minutos",
 ];
 
 export function FitFilter() {
@@ -50,7 +50,7 @@ export function FitFilter() {
           <Reveal delay={0.2}>
             <div className="h-full rounded-2xl border border-surface/10 bg-surface/[0.03] p-7">
               <p className="font-heading text-lg text-surface/70">
-                Probablemente no soy para ti si:
+                No soy la mejor opción para quienes:
               </p>
               <ul className="mt-4 space-y-3">
                 {NOT_FOR_YOU.map((item) => (
