@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { Reveal } from "@/components/motion/reveal";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -19,14 +21,25 @@ export function Pillars() {
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {PILLARS.map((pillar, index) => (
           <Reveal key={pillar.title} delay={0.1 + index * 0.06}>
-            <Card className="h-full">
-              <span className="font-heading text-3xl text-accent-dark">
-                0{index + 1}
-              </span>
-              <CardTitle className="mt-4">{pillar.title}</CardTitle>
-              <CardDescription className="mt-3">
-                {pillar.description}
-              </CardDescription>
+            <Card className="h-full overflow-hidden p-0">
+              <div className="relative aspect-[4/3] w-full">
+                <Image
+                  src={pillar.image}
+                  alt={pillar.imageAlt}
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-8">
+                <span className="font-heading text-3xl text-accent-dark">
+                  0{index + 1}
+                </span>
+                <CardTitle className="mt-4">{pillar.title}</CardTitle>
+                <CardDescription className="mt-3">
+                  {pillar.description}
+                </CardDescription>
+              </div>
             </Card>
           </Reveal>
         ))}

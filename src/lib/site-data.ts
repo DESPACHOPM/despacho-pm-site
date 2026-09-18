@@ -19,16 +19,22 @@ export const PILLARS = [
     title: "Ahorro estructurado",
     description:
       "Planes privados de retiro, ahorro empresarial y ahorro educativo: rendimiento y beneficio fiscal, con liquidez cuando tú la necesitas, no cuando el contrato lo permite.",
+    image: "/images/pillar-ahorro.jpg",
+    imageAlt: "Pareja caminando y conversando en un parque",
   },
   {
     title: "Protección personal",
     description:
       "Gastos médicos mayores, vida y protección de tu patrimonio, para que un accidente o un diagnóstico no borre lo que ya construiste.",
+    image: "/images/pillar-proteccion-personal.jpg",
+    imageAlt: "Familia pasando tiempo junta en la sala de su casa",
   },
   {
     title: "Protección empresarial",
     description:
       "Continuidad del negocio si tú faltas, te incapacitas o necesitas salir a tiempo: ahorro empresarial y cobertura para socios y personal clave.",
+    image: "/images/pillar-proteccion-empresarial.jpg",
+    imageAlt: "Dos socios de negocio revisando documentos en una sala de juntas",
   },
 ];
 

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { Reveal } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
 import { MEETING_NOTE, WHATSAPP_URL } from "@/lib/site-data";
@@ -6,7 +8,20 @@ export function FinalCta() {
   return (
     <section className="mx-auto max-w-5xl px-(--spacing-gutter) py-(--spacing-section) text-center">
       <Reveal>
-        <h2 className="font-heading text-3xl text-primary sm:text-4xl md:text-5xl">
+        <div className="relative mx-auto aspect-[16/9] w-full max-w-2xl overflow-hidden rounded-3xl sm:aspect-[21/9]">
+          <Image
+            src="/images/cta-familia.jpg"
+            alt="Familia disfrutando de tiempo juntos en casa"
+            fill
+            sizes="(min-width: 640px) 896px, 100vw"
+            className="object-cover"
+            style={{ objectPosition: "50% 35%" }}
+          />
+        </div>
+      </Reveal>
+
+      <Reveal delay={0.06}>
+        <h2 className="mt-10 font-heading text-3xl text-primary sm:text-4xl md:text-5xl">
           La tranquilidad financiera no es casualidad.
           <br className="hidden sm:block" /> Es resultado de decisiones bien
           tomadas.
