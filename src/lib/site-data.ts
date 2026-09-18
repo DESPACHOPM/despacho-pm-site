@@ -11,7 +11,6 @@ export const MEETING_NOTE = "Agenda por WhatsApp.";
 
 export const NAV_LINKS = [
   { href: "#pilares", label: "Lo que hacemos" },
-  { href: "#modalidades", label: "Modalidad 40 y 10" },
   { href: "#historia", label: "Mi historia" },
   { href: "#contadores", label: "Contadores" },
   { href: "#testimonios", label: "Clientes" },
@@ -42,6 +41,13 @@ export const PILLARS = [
   },
 ];
 
+export const IMSS_ALLY = {
+  name: "a-pensiones.com",
+  url: "https://www.a-pensiones.com/",
+  blurb:
+    "Gestionamos estos trámites junto con nuestros aliados de a-pensiones.com, especialistas con más de 25 años en la industria de las Afore.",
+};
+
 export const IMSS_MODALITIES = [
   {
     title: "Modalidad 40",
@@ -51,7 +57,7 @@ export const IMSS_MODALITIES = [
     points: [
       "Pensión más alta al momento de jubilarte",
       "Aplica si cotizaste bajo la Ley 73 y te faltan pocos años para el retiro",
-      "Te ayudo a calcular si te conviene y a tramitar la inscripción",
+      "Evaluamos tu caso junto con nuestros aliados de a-pensiones.com",
     ],
   },
   {
