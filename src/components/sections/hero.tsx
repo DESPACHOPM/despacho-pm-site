@@ -14,7 +14,7 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h1 className="text-center font-heading text-4xl leading-[1.1] text-primary sm:text-left sm:text-5xl md:text-6xl">
+            <h1 className="text-center font-heading text-4xl leading-[1.1] text-primary sm:text-5xl md:text-6xl">
               Trabajo con profesionistas y dueños de negocio que quieren
               certeza financiera, no solo coberturas.
             </h1>
@@ -29,7 +29,7 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={0.24}>
-            <div className="mt-9 flex flex-col items-center gap-4 sm:flex-row sm:items-center">
+            <div className="mt-9 flex flex-col items-center gap-4">
               <Button asChild size="lg">
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                   Agenda tu diagnóstico gratuito

@@ -29,15 +29,12 @@ export function FinalCta() {
       </Reveal>
 
       <Reveal delay={0.1}>
-        <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-foreground/80">
-          Si entiendes eso, podemos conversar.
-          <br />
-          {MEETING_NOTE}
-          <br />
-          Treinta minutos, sin costo.
-          <br />
-          Si tiene sentido trabajar juntos, damos los siguientes pasos.
-        </p>
+        <div className="mx-auto mt-6 max-w-xl space-y-3 text-lg leading-relaxed text-foreground/80">
+          <p>Si entiendes eso, podemos conversar.</p>
+          <p>{MEETING_NOTE}</p>
+          <p>Treinta minutos, sin costo.</p>
+          <p>Si tiene sentido trabajar juntos, damos los siguientes pasos.</p>
+        </div>
       </Reveal>
 
       <Reveal delay={0.2}>
