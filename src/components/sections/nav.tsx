@@ -24,7 +24,7 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur">
       <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-(--spacing-gutter) py-4">
-        <a href="#inicio" className="flex items-center gap-2.5">
+        <a href="/#inicio" className="flex items-center gap-2.5">
           <Image
             src="/images/logo.png"
             alt="Despacho PM"

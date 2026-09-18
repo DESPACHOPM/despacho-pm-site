@@ -19,34 +19,57 @@ export function Story() {
           <Reveal delay={0.14}>
             <p>
               Durante años trabajé en entornos donde todo parecía estar bajo
-              control. Proyectos grandes. Operaciones complejas. Decisiones
-              estratégicas todos los días. Más de diez años en sectores como
-              el ambiental, el petrolero y el energético, coordinando
-              equipos, procesos y soluciones para empresas que operan bajo
-              presión constante.
+              control.
+              <br />
+              Proyectos grandes. Operaciones complejas. Decisiones
+              estratégicas todos los días.
             </p>
           </Reveal>
 
-          <Reveal delay={0.2}>
+          <Reveal delay={0.19}>
+            <p>
+              Más de diez años en sectores como el ambiental, el petrolero y
+              el energético, coordinando equipos, procesos y soluciones para
+              empresas que operan bajo presión constante.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.24}>
             <p>
               Y aun así, entendí algo que no aparece en ningún plan de
-              negocio: los problemas más costosos no son los que ves. Son los
-              que no estás preparado para enfrentar.
+              negocio:
             </p>
           </Reveal>
 
-          <Reveal delay={0.26}>
+          <Reveal delay={0.29}>
             <p>
-              Empresas sólidas se detienen. Personas con buenos ingresos
-              pierden estabilidad. No por falta de capacidad, sino por falta
-              de estructura. Ese fue mi punto de quiebre.
+              Los problemas más costosos no son los que ves.
+              <br />
+              Son los que no estás preparado para enfrentar.
             </p>
           </Reveal>
 
-          <Reveal delay={0.32}>
+          <Reveal delay={0.34}>
+            <p>
+              Empresas sólidas se detienen.
+              <br />
+              Personas con buenos ingresos pierden estabilidad.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.39}>
+            <p>
+              No por falta de capacidad, sino por falta de estructura.
+              <br />
+              Ese fue mi punto de quiebre.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.44}>
             <p className="font-heading text-2xl text-primary">
-              Hoy no empiezo hablando de seguros. Empiezo construyendo
-              estructura financiera.
+              Hoy no empiezo hablando de seguros.
+              <br />
+              Empiezo construyendo estructura financiera.
             </p>
           </Reveal>
         </div>

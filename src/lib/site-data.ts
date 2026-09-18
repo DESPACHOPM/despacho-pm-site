@@ -10,11 +10,11 @@ export const WHATSAPP_URL_MODALIDADES =
 export const MEETING_NOTE = "Agenda por WhatsApp.";
 
 export const NAV_LINKS = [
-  { href: "#pilares", label: "Lo que hacemos" },
-  { href: "#historia", label: "Mi historia" },
-  { href: "#contadores", label: "Contadores" },
-  { href: "#testimonios", label: "Clientes" },
-  { href: "#preguntas", label: "Preguntas" },
+  { href: "/#pilares", label: "Lo que hacemos" },
+  { href: "/#historia", label: "Mi historia" },
+  { href: "/#contadores", label: "Contadores" },
+  { href: "/#testimonios", label: "Clientes" },
+  { href: "/#preguntas", label: "Preguntas" },
 ];
 
 export const PILLARS = [
