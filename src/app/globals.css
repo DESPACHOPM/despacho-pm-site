@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand */
+  --color-primary: #152354;
+  --color-primary-light: #2c3d7a;
+  --color-primary-dark: #0c1636;
+  --color-accent: #b8945f;
+  --color-accent-hover: #a37f4c;
+  --color-accent-dark: #8a6636;
+
+  /* Surfaces */
+  --color-background: #f7f4ee;
+  --color-surface: #ffffff;
+  --color-surface-alt: #efe9db;
+
+  /* Text */
+  --color-foreground: #16202e;
+  --color-muted: #5c6670;
+
+  /* Structure */
+  --color-border: #e1dac9;
+  --color-ring: #152354;
+  --color-destructive: #b3261e;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-light: var(--color-primary-light);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-accent-dark: var(--color-accent-dark);
+  --color-surface: var(--color-surface);
+  --color-surface-alt: var(--color-surface-alt);
+  --color-muted: var(--color-muted);
+  --color-border: var(--color-border);
+  --color-ring: var(--color-ring);
+  --color-destructive: var(--color-destructive);
+
+  --font-heading: "EB Garamond", ui-serif, Georgia, serif;
+  --font-sans: "Lato", ui-sans-serif, system-ui, sans-serif;
+
+  --spacing-section: clamp(4rem, 8vw, 8rem);
+  --spacing-gutter: clamp(1.25rem, 4vw, 3rem);
+
+  --animate-fade-up: fade-up 0.7s var(--ease-out);
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-primary-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
