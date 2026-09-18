@@ -1,6 +1,6 @@
 import { Reveal } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
-import { CREDENTIALS, MEETING_NOTE, WHATSAPP_URL } from "@/lib/site-data";
+import { CREDENTIALS, WHATSAPP_URL } from "@/lib/site-data";
 
 export function Hero() {
   return (
@@ -35,7 +35,6 @@ export function Hero() {
                   Agenda tu diagnóstico gratuito
                 </a>
               </Button>
-              <p className="text-sm text-muted">{MEETING_NOTE}</p>
             </div>
           </Reveal>
 

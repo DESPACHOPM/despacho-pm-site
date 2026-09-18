@@ -4,7 +4,7 @@ export const WHATSAPP_URL =
 export const WHATSAPP_URL_CONTADORES =
   "https://wa.me/5215621270724?text=Hola%2C%20soy%20contador%2Fa%20o%20fiscalista%20y%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20platicar%20sobre%20una%20alianza.%0A%0A%C2%A1Gracias%21";
 
-export const MEETING_NOTE = "Agenda por WhatsApp, la sesión es por Zoom.";
+export const MEETING_NOTE = "Agenda por WhatsApp.";
 
 export const NAV_LINKS = [
   { href: "#pilares", label: "Lo que hacemos" },
@@ -110,7 +110,7 @@ export const FAQS = [
   {
     question: "¿Cómo es el diagnóstico inicial?",
     answer:
-      "Agendas por WhatsApp y platicamos por Zoom, entre 30 y 40 minutos, sin costo. Es para ver si tiene sentido trabajar juntos. Si no lo tiene, te lo digo directamente.",
+      "Agendas por WhatsApp y platicamos entre 30 y 40 minutos, sin costo. Es para ver si tiene sentido trabajar juntos. Si no lo tiene, te lo digo directamente.",
   },
 ];
 
