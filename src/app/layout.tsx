@@ -52,6 +52,9 @@ export const metadata: Metadata = {
       "Ahorro estructurado, protección personal y protección empresarial para profesionistas y dueños de negocio en México.",
     images: ["/images/og-image.png"],
   },
+  other: {
+    "facebook-domain-verification": "40v981cjg65tuw4zph3oucb5o5tnug",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
