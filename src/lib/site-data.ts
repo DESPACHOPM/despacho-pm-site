@@ -137,13 +137,13 @@ export const ALSO_SOLVE = [
   },
   {
     eyebrow: "Tu retiro con el IMSS y tu Afore",
-    badge: "Solo CDMX",
+    badge: "Afore: solo CDMX",
     dashed: false,
     heading: [
       "Tu Afore es el ahorro más grande que tienes.",
       "Y probablemente el que menos revisas.",
     ],
-    body: "Afore, Modalidad 40 y Modalidad 10, con aliados especializados.",
+    body: "Revisamos tu Afore en CDMX. Modalidad 40 y Modalidad 10, en toda la República, con APE (Asesores Previsionales Especializados).",
     footnote: null,
     cta: "Revisa tu retiro →",
     href: WHATSAPP_URL_RETIRO,
