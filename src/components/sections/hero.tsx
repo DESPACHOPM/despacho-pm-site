@@ -36,9 +36,6 @@ export function Hero() {
                 Agenda tu Línea de la Vida sin costo
               </a>
             </Button>
-            <span className="text-sm text-muted">
-              30 a 40 minutos por WhatsApp o videollamada
-            </span>
           </div>
         </Reveal>
 
