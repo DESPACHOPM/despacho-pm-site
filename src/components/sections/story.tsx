@@ -4,71 +4,53 @@ import { Badge } from "@/components/ui/badge";
 export function Story() {
   return (
     <section id="historia" className="bg-surface-alt/60">
-      <div className="mx-auto max-w-3xl px-(--spacing-gutter) py-(--spacing-section)">
-        <div className="text-center">
+      <div className="mx-auto flex max-w-6xl flex-col gap-10 px-(--spacing-gutter) py-(--spacing-section) lg:flex-row lg:gap-18">
+        <div className="lg:w-[380px] lg:shrink-0">
           <Reveal>
             <Badge>Mi historia</Badge>
           </Reveal>
 
           <Reveal delay={0.08}>
-            <h2 className="mt-6 font-heading text-3xl text-primary sm:text-4xl">
-              Puedes tener buenos ingresos y aún así estar en riesgo financiero.
+            <h2 className="mt-6 font-heading text-3xl leading-snug text-primary sm:text-4xl">
+              Puedes tener buenos ingresos y aún así estar en riesgo
+              financiero.
             </h2>
           </Reveal>
         </div>
 
-        <div className="mt-8 space-y-6 text-lg leading-relaxed text-foreground/85">
-          <Reveal delay={0.14}>
+        <div className="flex-1 space-y-5 text-lg leading-relaxed text-foreground/85">
+          <Reveal delay={0.16}>
             <p>
-              Durante años trabajé en entornos donde todo parecía estar bajo
-              control.
+              Más de diez años en los sectores ambiental, petrolero y
+              energético.
               <br />
-              Proyectos grandes. Operaciones complejas. Decisiones
-              estratégicas todos los días.
+              Proyectos grandes. Operaciones complejas. Presión constante.
             </p>
           </Reveal>
 
-          <Reveal delay={0.19}>
+          <Reveal delay={0.22}>
             <p>
-              Más de diez años en sectores como el ambiental, el petrolero y
-              el energético, coordinando equipos, procesos y soluciones para
-              empresas que operan bajo presión constante.
-            </p>
-          </Reveal>
-
-          <Reveal delay={0.24}>
-            <p>
-              Y aun así, entendí algo que no aparece en ningún plan de
-              negocio:
-            </p>
-          </Reveal>
-
-          <Reveal delay={0.29}>
-            <p>
-              Los problemas más costosos no son los que ves.
+              Ahí entendí algo que no aparece en ningún plan:
               <br />
-              Son los que no estás preparado para enfrentar.
+              <span className="font-semibold text-primary">
+                los problemas más costosos son los que no estás preparado
+                para enfrentar.
+              </span>
             </p>
           </Reveal>
 
-          <Reveal delay={0.34}>
+          <Reveal delay={0.28}>
             <p>
               Empresas sólidas se detienen.
               <br />
               Personas con buenos ingresos pierden estabilidad.
-            </p>
-          </Reveal>
-
-          <Reveal delay={0.39}>
-            <p>
-              No por falta de capacidad, sino por falta de estructura.
               <br />
-              Ese fue mi punto de quiebre.
+              No por falta de capacidad. Por falta de estructura.
             </p>
           </Reveal>
 
-          <Reveal delay={0.44}>
-            <p className="font-heading text-2xl text-primary">
+          <Reveal delay={0.34}>
+            <p className="font-semibold text-primary">
               Hoy no empiezo hablando de seguros.
               <br />
               Empiezo construyendo estructura financiera.

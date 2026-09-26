@@ -5,7 +5,7 @@ import { TESTIMONIALS } from "@/lib/site-data";
 
 export function Testimonials() {
   return (
-    <section id="testimonios" className="mx-auto max-w-6xl px-(--spacing-gutter) py-(--spacing-section)">
+    <section id="clientes" className="mx-auto max-w-6xl px-(--spacing-gutter) py-(--spacing-section)">
       <div className="text-center">
         <Reveal>
           <Badge>Clientes</Badge>
@@ -13,12 +13,12 @@ export function Testimonials() {
 
         <Reveal delay={0.08}>
           <h2 className="mx-auto mt-6 max-w-2xl font-heading text-3xl text-primary sm:text-4xl">
-            Lo que dicen las personas con las que he trabajado.
+            Lo que dicen quienes ya tienen estructura.
           </h2>
         </Reveal>
       </div>
 
-      <div className="mt-10 grid gap-6 sm:grid-cols-2">
+      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {TESTIMONIALS.map((testimonial, index) => (
           <Reveal key={testimonial.name} delay={0.14 + index * 0.06}>
             <Card className="flex h-full flex-col justify-between">

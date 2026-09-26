@@ -1,107 +1,195 @@
 export const WHATSAPP_URL =
-  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20recibir%20una%20asesor%C3%ADa.%0A%0AQuiero%20agendar%20una%20conversaci%C3%B3n%20cuando%20sea%20posible.%0A%0A%C2%A1Gracias%21";
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Quiero%20agendar%20mi%20L%C3%ADnea%20de%20la%20Vida.";
 
 export const WHATSAPP_URL_CONTADORES =
   "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM%20y%20me%20interesa%20platicar%20sobre%20una%20alianza.%0A%0A%C2%A1Gracias%21";
 
-export const WHATSAPP_URL_MODALIDADES =
-  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%0A%0AMe%20interesa%20informaci%C3%B3n%20sobre%20Modalidad%2040%20/%20Modalidad%2010%20del%20IMSS.%0A%0A%C2%A1Gracias%21";
+export const WHATSAPP_URL_DEDUCE =
+  "https://wa.me/5215621270724?text=DEDUCE%0AHola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.";
 
-export const MEETING_NOTE = "Agenda por WhatsApp.";
+export const WHATSAPP_URL_MARGEN =
+  "https://wa.me/5215621270724?text=MARGEN%0AHola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.";
+
+export const WHATSAPP_URL_LIQUIDEZ =
+  "https://wa.me/5215621270724?text=LIQUIDEZ%0AHola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.";
+
+export const WHATSAPP_URL_BLINDAJE =
+  "https://wa.me/5215621270724?text=BLINDAJE%0AHola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.";
+
+export const WHATSAPP_URL_PATRIMONIO =
+  "https://wa.me/5215621270724?text=PATRIMONIO%0AHola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.";
+
+export const WHATSAPP_URL_EDUCACION =
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Me%20interesa%20planear%20la%20universidad%20de%20mis%20hijos.";
+
+export const WHATSAPP_URL_RETIRO =
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Me%20interesa%20revisar%20mi%20Afore%20o%20Modalidad%2040/10.";
+
+export const WHATSAPP_URL_DOLARES =
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Tengo%20presencia%20o%20familia%20en%20EUA%20y%20me%20interesa%20ahorrar%20en%20d%C3%B3lares.";
+
+export const WHATSAPP_URL_CREDITO =
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Quiero%20que%20me%20avisen%20cuando%20est%C3%A9%20disponible%20la%20asesor%C3%ADa%20de%20cr%C3%A9dito.";
 
 export const NAV_LINKS = [
-  { href: "/#pilares", label: "Lo que hacemos" },
+  { href: "/#situaciones", label: "Tu situación" },
+  { href: "/#acompanamiento", label: "Cómo te acompaño" },
   { href: "/#historia", label: "Mi historia" },
-  { href: "/#alianzas", label: "Alianzas" },
-  { href: "/#testimonios", label: "Clientes" },
+  { href: "/#clientes", label: "Clientes" },
   { href: "/#preguntas", label: "Preguntas" },
 ];
 
-export const PILLARS = [
-  {
-    title: "Ahorro estructurado",
-    description:
-      "Planes privados de retiro, ahorro empresarial y ahorro educativo: rendimiento y beneficio fiscal, con liquidez cuando tú la necesitas, no cuando el contrato lo permite.",
-    image: "/images/pillar-ahorro.jpg",
-    imageAlt: "Pareja caminando y conversando en un parque",
-  },
-  {
-    title: "Protección personal",
-    description:
-      "Gastos médicos mayores, vida y protección de tu patrimonio, para que un accidente o un diagnóstico no borre lo que ya construiste.",
-    image: "/images/pillar-proteccion-personal.jpg",
-    imageAlt: "Familia pasando tiempo junta en la sala de su casa",
-  },
-  {
-    title: "Protección empresarial",
-    description:
-      "Continuidad del negocio si tú faltas, te incapacitas o necesitas salir a tiempo: ahorro empresarial y cobertura para socios y personal clave.",
-    image: "/images/pillar-proteccion-empresarial.jpg",
-    imageAlt: "Dos socios de negocio revisando documentos en una sala de juntas",
-  },
-];
-
-export const IMSS_ALLY = {
-  name: "a-pensiones.com",
-  url: "https://www.a-pensiones.com/",
-  blurb:
-    "Gestionamos estos trámites junto con nuestros aliados de a-pensiones.com, especialistas con más de 25 años en la industria de las Afore.",
-};
-
-export const IMSS_MODALITIES = [
-  {
-    title: "Modalidad 40",
-    subtitle: "Continuación voluntaria en el IMSS",
-    description:
-      "Si dejaste de cotizar y estás cerca del retiro, puedes seguir aportando voluntariamente bajo la Ley del Seguro Social de 1973 para aumentar tu salario base de cotización — y con eso, el monto de tu pensión mensual.",
-    points: [
-      "Pensión más alta al momento de jubilarte",
-      "Aplica si cotizaste bajo la Ley 73 y te faltan pocos años para el retiro",
-      "Evaluamos tu caso junto con nuestros aliados de a-pensiones.com",
-    ],
-  },
-  {
-    title: "Modalidad 10",
-    subtitle: "Incorporación voluntaria al IMSS",
-    description:
-      "Si eres independiente, dueño de negocio o no tienes una relación laboral formal, puedes inscribirte por tu cuenta al régimen obligatorio del IMSS y acceder a sus prestaciones sin depender de un patrón.",
-    points: [
-      "Servicio médico, maternidad e incapacidades",
-      "Semanas cotizadas para tu pensión, aunque seas independiente",
-      "Aplica para socios, profesionistas y trabajadores no asalariados",
-    ],
-  },
-];
-
 export const CREDENTIALS = [
-  { value: "10+", label: "años en sectores de alta presión: ambiental, petrolero y energético" },
-  { value: "M370232", label: "cédula de agente, autorizada ante la CNSF" },
-  { value: "3", label: "pilares: ahorro, protección personal y protección empresarial" },
+  { value: "10+", label: "años en sectores de alta presión" },
+  { value: "M370232", label: "cédula de agente ante la CNSF" },
+  { value: "MX · EUA", label: "estrategias en pesos y en dólares" },
+];
+
+export const SITUATIONS = [
+  {
+    lines: [
+      "Pagas impuestos cada año.",
+      "Y no tienes un plan de retiro que los aproveche.",
+    ],
+    cta: "DEDUCE",
+    href: WHATSAPP_URL_DEDUCE,
+  },
+  {
+    lines: [
+      "Ganas bien por tu cuenta.",
+      "Pero si dejas de trabajar un mes, tu ingreso se detiene contigo.",
+    ],
+    cta: "MARGEN",
+    href: WHATSAPP_URL_MARGEN,
+  },
+  {
+    lines: [
+      "Tu negocio mueve dinero todos los días.",
+      "Pero nada de eso está separado para ti.",
+    ],
+    cta: "LIQUIDEZ",
+    href: WHATSAPP_URL_LIQUIDEZ,
+  },
+  {
+    lines: [
+      "Tu empresa depende de ti o de un socio clave.",
+      "¿Qué pasa si uno de los dos falta?",
+    ],
+    cta: "BLINDAJE",
+    href: WHATSAPP_URL_BLINDAJE,
+  },
+  {
+    lines: [
+      "Tienes bienes.",
+      "Pero si mañana necesitaras efectivo, tendrías que vender algo.",
+    ],
+    cta: "PATRIMONIO",
+    href: WHATSAPP_URL_PATRIMONIO,
+  },
+];
+
+export const ACCOMPANIMENT = [
+  {
+    number: "01",
+    title: "Línea de la Vida",
+    lines: [
+      "Vemos tu vida completa en una sola línea.",
+      "Lo que tienes, lo que viene y lo que falta.",
+    ],
+  },
+  {
+    number: "02",
+    title: "Tu estructura",
+    lines: ["Diseñamos solo lo que tu situación necesita.", "Nada de más."],
+  },
+  {
+    number: "03",
+    title: "Implementación",
+    lines: [
+      "Revisamos juntos cada condición antes de firmar.",
+      "Sin letras pequeñas.",
+    ],
+  },
+  {
+    number: "04",
+    title: "Seguimiento",
+    lines: [
+      "Tu vida cambia. Tu estructura también.",
+      "La revisamos contigo cada año.",
+    ],
+  },
+];
+
+export const ALSO_SOLVE = [
+  {
+    eyebrow: "Educación de tus hijos",
+    badge: null,
+    dashed: false,
+    heading: [
+      "Una carrera en la mejor universidad de México cuesta hoy $ 1,626,480.00 MXN.",
+      "En EUA, $261,880.00 USD.",
+    ],
+    body: "Se paga con años de anticipación. O se paga de golpe.",
+    footnote:
+      "Referencia: colegiatura Tec de Monterrey ago–dic 2026, 9 semestres; promedio universidad privada EUA, College Board 2025-26. Sin inflación.",
+    cta: "Planea su universidad →",
+    href: WHATSAPP_URL_EDUCACION,
+  },
+  {
+    eyebrow: "Tu retiro con el IMSS y tu Afore",
+    badge: "Solo CDMX",
+    dashed: false,
+    heading: [
+      "Tu Afore es el ahorro más grande que tienes.",
+      "Y probablemente el que menos revisas.",
+    ],
+    body: "Afore, Modalidad 40 y Modalidad 10, con aliados especializados.",
+    footnote: null,
+    cta: "Revisa tu retiro →",
+    href: WHATSAPP_URL_RETIRO,
+  },
+  {
+    eyebrow: "Ahorro en dólares",
+    badge: null,
+    dashed: false,
+    heading: ["¿Tienes presencia o familia en Estados Unidos?"],
+    body: "Estrategias en dólares con aliados certificados allá. Sin resolverlo solo desde México.",
+    footnote: null,
+    cta: "Platiquemos tu caso →",
+    href: WHATSAPP_URL_DOLARES,
+  },
+  {
+    eyebrow: "Crédito con estrategia",
+    badge: "Próximamente",
+    dashed: true,
+    heading: [
+      "Si vas a usar crédito, que sea por estrategia.",
+      "No por urgencia.",
+    ],
+    body: "Hipotecas y créditos con bancos y financieras diversas. Te acompañamos para buscar las mejores condiciones.",
+    footnote: null,
+    cta: "Quiero que me avisen →",
+    href: WHATSAPP_URL_CREDITO,
+  },
 ];
 
 export const TESTIMONIALS = [
   {
     quote:
-      "Muchas gracias Pedro, por tu apoyo al brindarme la orientación y alternativas, para elegir un plan de protección e inversión, adecuado a mi edad y economía.",
-    name: "Enriqueta Glz",
-    role: "",
+      "No me sentí presionado, sino acompañado. Me hizo ver la importancia de ser proactivo con mi protección familiar.",
+    name: "Emanuel",
+    role: "Médico jubilado",
   },
   {
     quote:
-      "A quien corresponda, hago de conocimiento que he recibido personalmente la atención profesional de varios temas del Sr. Pedro Miguel Monterrubio, a quien recomiendo muy ampliamente, ya que lo considero gente de gran confianza, seriedad y un gran profesionalismo.",
-    name: "Jaquelina Alcalá",
-    role: "",
-  },
-  {
-    quote:
-      "Fue una muy buena plática. Me llevé claridad sobre cómo una estructura financiera puede proteger lo que uno ha construido. Si alguien me pregunta y está buscando ordenar su futuro, lo enviaría sin dudarlo.",
+      "Me llevé claridad sobre cómo una estructura financiera puede proteger lo que uno ha construido.",
     name: "Fco. Vargas Sánchez",
     role: "",
   },
   {
     quote:
-      "Lo que más me sorprendió fue la actitud humana y comprensiva durante toda la conversación. No me sentí presionado, sino acompañado. Me hizo ver la importancia de tener una actitud más proactiva que reactiva con mi protección familiar.",
-    name: "Profesionista",
+      "Gracias por la orientación y las alternativas para elegir un plan adecuado a mi edad y economía.",
+    name: "Enriqueta Glz",
     role: "",
   },
 ];
@@ -123,29 +211,24 @@ export const ACCOUNTANTS = {
 
 export const FAQS = [
   {
-    question: "¿Puedo deducir esto en mi declaración anual?",
+    question: "¿Puedo deducirlo en mi declaración anual?",
     answer:
-      "Varios productos —planes privados de retiro, aportaciones a Modalidad 40, seguros de gastos médicos y seguros de vida con componente de ahorro— permiten deducciones dentro de los límites que marca el SAT. Lo revisamos junto con tu contador o fiscalista.",
+      "Varios planes sí, dentro de los límites del SAT. Lo revisamos con tu contador.",
   },
   {
-    question: "¿Qué pasa si necesito el dinero antes de lo previsto?",
+    question: "¿Qué pasa si necesito el dinero antes?",
     answer:
-      "Depende del producto. La mayoría permite retiros parciales o totales, con posibles ajustes en el rendimiento. Te explico las condiciones exactas en tu diagnóstico, antes de firmar cualquier cosa.",
+      "Depende del plan. Te explico las condiciones exactas antes de firmar cualquier cosa.",
   },
   {
     question: "¿Cómo sé que mi dinero está seguro?",
     answer:
-      "Trabajo con instituciones reguladas y supervisadas por la CNSF y la CONDUSEF. Tus recursos quedan respaldados por reservas técnicas y, en muchos casos, por el IPAB o figuras equivalentes.",
+      "Trabajo con aseguradoras reguladas y supervisadas por la CNSF. La ley les exige reservas para responder por cada póliza.",
   },
   {
-    question: "Vivo en México pero tengo familia en Estados Unidos, ¿aplica para mí?",
+    question: "¿Cómo es la Línea de la Vida?",
     answer:
-      "Sí. Diseño estrategias de ahorro en dólares junto con aliados certificados en Estados Unidos, pensadas para quien tiene presencia o familia allá.",
-  },
-  {
-    question: "¿Cómo es el diagnóstico inicial?",
-    answer:
-      "Agendas por WhatsApp y platicamos entre 30 y 40 minutos, sin costo. Es para ver si tiene sentido trabajar juntos. Si no lo tiene, te lo digo directamente.",
+      "Platicamos de 30 a 40 minutos, sin costo. Si no tiene sentido trabajar juntos, te lo digo directamente.",
   },
 ];
 

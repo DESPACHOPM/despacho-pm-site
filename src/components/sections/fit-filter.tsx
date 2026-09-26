@@ -2,15 +2,14 @@ import { Reveal } from "@/components/motion/reveal";
 import { Check, X } from "lucide-react";
 
 const FOR_YOU = [
-  "Buscan claridad financiera, no otra póliza que archivar",
-  "Piensan en estrategia a largo plazo",
-  "Quieren decisiones bien estructuradas, aunque tomen su tiempo",
+  "Buscan claridad, no otra póliza que archivar.",
+  "Piensan a largo plazo.",
+  "Quieren decisiones bien estructuradas.",
 ];
 
 const NOT_FOR_YOU = [
-  "Solo buscan cotizar y comparar precios",
-  "Buscan la póliza más barata, sin importar qué cubre",
-  "No tienen tiempo para una conversación honesta de 30 minutos",
+  "Solo quieren la póliza más barata.",
+  "No tienen 30 minutos para una conversación honesta.",
 ];
 
 export function FitFilter() {
@@ -26,7 +25,9 @@ export function FitFilter() {
         <Reveal delay={0.08}>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-surface/80">
             Si buscas cotizar o comparar precios, probablemente no soy la
-            mejor opción para ti — y prefiero decírtelo ahora que después.
+            mejor opción.
+            <br />
+            Prefiero decírtelo ahora.
           </p>
         </Reveal>
 

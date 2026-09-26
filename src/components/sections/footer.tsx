@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { NAV_LINKS, SOCIAL_LINKS, WHATSAPP_URL } from "@/lib/site-data";
+import { SOCIAL_LINKS, WHATSAPP_URL } from "@/lib/site-data";
 import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
@@ -22,34 +22,39 @@ export function Footer() {
               </p>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-surface/70">
-              Estructura financiera para profesionistas y dueños de negocio
-              en México.
+              Estructura financiera para profesionistas y dueños de negocio.
               <br />
-              Agente autorizado ante la CNSF, cédula M370232.
+              Agente autorizado ante la CNSF · Cédula M370232
             </p>
           </div>
 
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.08em] text-surface/60">
-              Navegación
+              Enlaces
             </p>
             <ul className="mt-4 space-y-2">
-              {NAV_LINKS.map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-surface/80 hover:text-accent"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a
+                  href="/alianzas"
+                  className="text-sm text-surface/80 hover:text-accent"
+                >
+                  ¿Eres contador, abogado o notario? Seamos aliados
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/aviso-de-privacidad"
+                  className="text-sm text-surface/80 hover:text-accent"
+                >
+                  Aviso de privacidad
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.08em] text-surface/60">
-              Contacto
+              Redes
             </p>
             <ul className="mt-4 space-y-2">
               <li>
@@ -81,29 +86,10 @@ export function Footer() {
 
         <Separator className="my-10 bg-surface/10" />
 
-        <div className="flex flex-col gap-3 text-xs text-surface/50 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {new Date().getFullYear()} Despacho PM. Todos los derechos
-            reservados.{" "}
-            <a
-              href="/aviso-de-privacidad"
-              className="underline underline-offset-2 hover:text-surface/80"
-            >
-              Aviso de Privacidad
-            </a>
-          </p>
-          <p>
-            Built with Claude Web Builder by{" "}
-            <a
-              href="https://tododeia.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-2 hover:text-surface/80"
-            >
-              Tododeia
-            </a>
-          </p>
-        </div>
+        <p className="text-xs text-surface/50">
+          © {new Date().getFullYear()} Despacho PM. Todos los derechos
+          reservados.
+        </p>
       </div>
     </footer>
   );

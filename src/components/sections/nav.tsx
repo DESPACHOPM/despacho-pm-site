@@ -53,7 +53,7 @@ export function Nav() {
         <div className="hidden md:block">
           <Button asChild size="sm">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-              Agenda tu diagnóstico
+              Agenda tu Línea de la Vida
             </a>
           </Button>
         </div>
@@ -94,7 +94,7 @@ export function Nav() {
               ))}
               <Button asChild className="mt-2 w-full">
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                  Agenda tu diagnóstico
+                  Agenda tu Línea de la Vida
                 </a>
               </Button>
             </div>
