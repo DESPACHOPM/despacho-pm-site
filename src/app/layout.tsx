@@ -16,7 +16,7 @@ const siteUrl = "https://www.futurumhodie.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Despacho PM | Estructura financiera, no solo seguros",
+  title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
   description:
     "Acompaño a profesionistas, emprendedores y dueños de negocio en México a construir estructura financiera real: ahorro, protección personal y protección empresarial. Agenda tu diagnóstico gratuito.",
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Despacho PM" }],
   openGraph: {
-    title: "Despacho PM | Estructura financiera, no solo seguros",
+    title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
     description:
       "Ahorro estructurado, protección personal y protección empresarial para profesionistas y dueños de negocio en México.",
     url: siteUrl,
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
         url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Despacho PM — Estructura financiera, no solo seguros",
+        alt: "Despacho PM — Tu ingreso depende de ti. Tu estructura no debería.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Despacho PM | Estructura financiera, no solo seguros",
+    title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
     description:
       "Ahorro estructurado, protección personal y protección empresarial para profesionistas y dueños de negocio en México.",
     images: ["/images/og-image.png"],

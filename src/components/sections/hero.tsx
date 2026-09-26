@@ -17,7 +17,7 @@ export function Hero() {
         <Reveal delay={0.08} className="order-2 lg:[grid-column:1] lg:[grid-row:2]">
           <h1 className="text-center font-heading text-4xl leading-[1.15] text-primary sm:text-5xl md:text-6xl lg:text-left">
             Trabajo con profesionistas y dueños de negocio que quieren
-            certeza financiera, no solo coberturas.
+            certeza financiera, no solo ingresos.
           </h1>
         </Reveal>
 
