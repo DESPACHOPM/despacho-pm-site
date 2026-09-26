@@ -123,6 +123,7 @@ export const ACCOMPANIMENT = [
 export const ALSO_SOLVE = [
   {
     eyebrow: "Educación de tus hijos",
+    image: "/images/educacion-hijos.jpg",
     badge: null,
     dashed: false,
     heading: [
@@ -130,6 +131,7 @@ export const ALSO_SOLVE = [
       "En EUA, $261,880.00 USD.",
     ],
     body: "Se paga con años de anticipación. O se paga de golpe.",
+    list: null,
     footnote:
       "Referencia: colegiatura Tec de Monterrey ago–dic 2026, 9 semestres; promedio universidad privada EUA, College Board 2025-26. Sin inflación.",
     cta: "Planea su universidad →",
@@ -137,29 +139,38 @@ export const ALSO_SOLVE = [
   },
   {
     eyebrow: "Tu retiro con el IMSS y tu Afore",
+    image: "/images/retiro-afore.jpg",
     badge: "Afore: solo CDMX",
     dashed: false,
     heading: [
       "Tu Afore es el ahorro más grande que tienes.",
       "Y probablemente el que menos revisas.",
     ],
-    body: "Revisamos tu Afore en CDMX. Modalidad 40 y Modalidad 10, en toda la República, con APE (Asesores Previsionales Especializados).",
+    body: "Con APE (Asesores Previsionales Especializados):",
+    list: [
+      "Modalidad 40 — en toda la República.",
+      "Modalidad 10 — en toda la República.",
+      "Revisión de tu Afore — solo en CDMX.",
+    ],
     footnote: null,
     cta: "Revisa tu retiro →",
     href: WHATSAPP_URL_RETIRO,
   },
   {
     eyebrow: "Ahorro en dólares",
+    image: "/images/ahorro-dolares.jpg",
     badge: null,
     dashed: false,
     heading: ["¿Tienes presencia o familia en Estados Unidos?"],
     body: "Estrategias en dólares con aliados certificados allá. Sin resolverlo solo desde México.",
+    list: null,
     footnote: null,
     cta: "Platiquemos tu caso →",
     href: WHATSAPP_URL_DOLARES,
   },
   {
     eyebrow: "Crédito con estrategia",
+    image: "/images/credito-estrategia.jpg",
     badge: "Próximamente",
     dashed: true,
     heading: [
@@ -167,6 +178,7 @@ export const ALSO_SOLVE = [
       "No por urgencia.",
     ],
     body: "Hipotecas y créditos con bancos y financieras diversas. Te acompañamos para buscar las mejores condiciones.",
+    list: null,
     footnote: null,
     cta: "Quiero que me avisen →",
     href: WHATSAPP_URL_CREDITO,
