@@ -46,6 +46,38 @@ function getCookie(name: string): string | undefined {
   return match ? decodeURIComponent(match[1]) : undefined;
 }
 
+const CLICK_ID_MAX_AGE = 90 * 24 * 60 * 60; // 90 días, igual que el píxel
+
+function cookieDomainAttr(): string {
+  // Mismo dominio raíz que usa el píxel, para que ambos compartan la cookie
+  return window.location.hostname.endsWith("futurumhodie.com") ? "; domain=.futurumhodie.com" : "";
+}
+
+function setCookie(name: string, value: string) {
+  const secure = window.location.protocol === "https:" ? "; Secure" : "";
+  document.cookie =
+    `${name}=${encodeURIComponent(value)}; max-age=${CLICK_ID_MAX_AGE}; path=/` +
+    `${cookieDomainAttr()}; SameSite=Lax${secure}`;
+}
+
+/** Guarda fbclid como _fbc y crea _fbp si falta, aunque el píxel esté bloqueado. */
+export function persistClickIds() {
+  if (typeof window === "undefined") return;
+
+  const fbclid = new URLSearchParams(window.location.search).get("fbclid");
+  if (fbclid) {
+    const current = getCookie("_fbc");
+    // Solo reescribir si es un clic nuevo (distinto fbclid)
+    if (!current || !current.endsWith(`.${fbclid}`)) {
+      setCookie("_fbc", `fb.1.${Date.now()}.${fbclid}`);
+    }
+  }
+
+  if (!getCookie("_fbp")) {
+    setCookie("_fbp", `fb.1.${Date.now()}.${Math.floor(Math.random() * 1e10)}`);
+  }
+}
+
 function getFbc(): string | undefined {
   const cookie = getCookie("_fbc");
   if (cookie) return cookie;
@@ -61,6 +93,7 @@ function newEventId(): string {
 /** Envía el evento por el píxel (navegador) y por CAPI (servidor) con el mismo event_id. */
 export function trackMeta(eventName: MetaEventName, customData?: { content_name?: string }) {
   if (typeof window === "undefined") return;
+  persistClickIds();
   ensurePixel();
 
   const eventId = newEventId();
