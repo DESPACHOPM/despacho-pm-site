@@ -12,7 +12,7 @@ export function Story() {
 
           <Reveal delay={0.08}>
             <h2 className="mt-6 font-heading text-3xl leading-snug text-primary sm:text-4xl">
-              Puedes tener buenos ingresos y aún así estar en riesgo
+              Puedes tener buenos ingresos y aun así estar en riesgo
               financiero.
             </h2>
           </Reveal>

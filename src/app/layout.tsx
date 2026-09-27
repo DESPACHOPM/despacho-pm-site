@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
   description:
-    "Acompaño a profesionistas, emprendedores y dueños de negocio en México a construir estructura financiera real: ahorro, protección personal y protección empresarial. Agenda tu diagnóstico gratuito.",
+    "Puedes tener buenos ingresos y aun así estar en riesgo financiero. Estructura financiera.",
   keywords: [
     "asesor financiero",
     "estructura financiera",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
     description:
-      "Ahorro estructurado, protección personal y protección empresarial para profesionistas y dueños de negocio en México.",
+      "Puedes tener buenos ingresos y aun así estar en riesgo financiero. Estructura financiera.",
     url: siteUrl,
     siteName: "Despacho PM",
     locale: "es_MX",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
     description:
-      "Ahorro estructurado, protección personal y protección empresarial para profesionistas y dueños de negocio en México.",
+      "Puedes tener buenos ingresos y aun así estar en riesgo financiero. Estructura financiera.",
     images: ["/images/og-image.png"],
   },
   other: {
