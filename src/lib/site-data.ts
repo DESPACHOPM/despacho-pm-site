@@ -29,7 +29,7 @@ export const WHATSAPP_URL_DOLARES =
   "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Tengo%20presencia%20o%20familia%20en%20EUA%20y%20me%20interesa%20ahorrar%20en%20d%C3%B3lares.";
 
 export const WHATSAPP_URL_CREDITO =
-  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Quiero%20que%20me%20avisen%20cuando%20est%C3%A9%20disponible%20la%20asesor%C3%ADa%20de%20cr%C3%A9dito.";
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Me%20interesa%20platicar%20sobre%20mi%20cr%C3%A9dito%20hipotecario.";
 
 export const NAV_LINKS = [
   { href: "/#situaciones", label: "Tu situación" },
@@ -171,16 +171,21 @@ export const ALSO_SOLVE = [
   {
     eyebrow: "Crédito con estrategia",
     image: "/images/credito-estrategia.jpg",
-    badge: "Próximamente",
-    dashed: true,
+    badge: null,
+    dashed: false,
     heading: [
       "Si vas a usar crédito, que sea por estrategia.",
       "No por urgencia.",
     ],
-    body: "Hipotecas y créditos con bancos y financieras diversas. Te acompañamos para buscar las mejores condiciones.",
-    list: null,
+    body: "Trabajamos con un aliado especialista en temas de crédito, con más de 17 años de experiencia y acceso a los principales bancos del país.",
+    list: [
+      "Adquisición de vivienda",
+      "Sustitución o mejora de hipoteca",
+      "Liquidez y remodelación",
+      "Terreno y construcción",
+    ],
     footnote: null,
-    cta: "Quiero que me avisen →",
+    cta: "Platiquemos tu crédito →",
     href: WHATSAPP_URL_CREDITO,
   },
 ];
