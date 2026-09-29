@@ -49,6 +49,39 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  // Redirects from the old Google Sites URLs to their equivalent section on
+  // the new site. Each accented path is listed twice (literal Unicode and
+  // percent-encoded UTF-8) because different browsers/crawlers can send the
+  // request either way, and Next.js needs an exact match on `source`.
+  async redirects() {
+    return [
+      {
+        source: "/contáctanos",
+        destination: "/#contacto",
+        permanent: true,
+      },
+      {
+        source: "/cont%C3%A1ctanos",
+        destination: "/#contacto",
+        permanent: true,
+      },
+      {
+        source: "/reseñas",
+        destination: "/#clientes",
+        permanent: true,
+      },
+      {
+        source: "/rese%C3%B1as",
+        destination: "/#clientes",
+        permanent: true,
+      },
+      {
+        source: "/preguntas-frecuentes",
+        destination: "/#preguntas",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

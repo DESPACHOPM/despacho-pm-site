@@ -86,7 +86,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div>
+          <div id="contacto">
             <p className="text-sm font-semibold uppercase tracking-[0.08em] text-surface/60">
               Contacto
             </p>

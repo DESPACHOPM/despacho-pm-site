@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Alianzas | Despacho PM",
   description:
     "Contadores, fiscalistas, abogados, agentes inmobiliarios y notarios: seamos aliados. Sumamos estructura financiera a la relación de confianza que ya tienes con tus clientes.",
+  alternates: {
+    canonical: "/alianzas",
+  },
 };
 
 export default function Alianzas() {

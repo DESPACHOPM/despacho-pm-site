@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Aviso de Privacidad | Despacho PM",
   description:
     "Aviso de privacidad de Despacho PM (Pedro Miguel Monterrubio Alvarado), en cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).",
+  alternates: {
+    canonical: "/aviso-de-privacidad",
+  },
 };
 
 export default function AvisoDePrivacidad() {

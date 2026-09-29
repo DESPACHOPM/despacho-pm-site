@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     "Despacho PM",
   ],
   authors: [{ name: "Despacho PM" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
     description:
