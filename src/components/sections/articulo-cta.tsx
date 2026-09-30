@@ -19,14 +19,14 @@ export function ArticuloCta({ situacion }: { situacion: Situacion }) {
   const label = LABELS[situacion] ?? LABELS.GENERAL;
 
   return (
-    <div className="mt-14 rounded-2xl border border-border bg-surface-alt/60 p-8 text-center sm:p-10">
+    <div className="mt-14 rounded-2xl border border-border bg-surface-alt/60 p-6 text-center sm:p-10">
       {situacion === "GENERAL" && (
-        <p className="mx-auto max-w-xl text-[15px] leading-relaxed text-foreground/80">
+        <p className="mx-auto max-w-xl text-[15px] leading-loose text-foreground/80">
           {GENERAL_HEADING}
         </p>
       )}
 
-      <div className={situacion === "GENERAL" ? "mt-6 flex justify-center" : "flex justify-center"}>
+      <div className={situacion === "GENERAL" ? "mt-8 flex justify-center" : "flex justify-center"}>
         <Button asChild size="lg">
           <a href={href} target="_blank" rel="noopener noreferrer">
             {label}
@@ -34,7 +34,7 @@ export function ArticuloCta({ situacion }: { situacion: Situacion }) {
         </Button>
       </div>
 
-      <p className="mt-5 text-sm text-muted">
+      <p className="mt-7 text-sm text-muted">
         ¿Quieres más contenido como este?{" "}
         <a
           href="https://www.linkedin.com/company/despacho-pm"
