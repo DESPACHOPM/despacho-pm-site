@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Calendar, MapPin, ShieldCheck } from "lucide-react";
 
 import { WHATSAPP_URL } from "@/lib/site-data";
@@ -151,6 +152,9 @@ export function Footer() {
             <a href="/aviso-de-privacidad" className="hover:text-accent">
               Aviso de privacidad
             </a>
+            <Link href="/articulos" className="hover:text-accent">
+              Artículos
+            </Link>
             <a href="/alianzas" className="hover:text-accent">
               ¿Eres contador, abogado o notario? Seamos aliados
             </a>

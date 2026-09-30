@@ -38,7 +38,7 @@ export function FinalCta() {
         <div className="mt-9 flex justify-center">
           <Button asChild size="lg">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-              Agenda tu Línea de la Vida sin costo
+              Agenda tu diagnóstico
             </a>
           </Button>
         </div>

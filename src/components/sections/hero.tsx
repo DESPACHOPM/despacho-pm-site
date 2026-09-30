@@ -33,7 +33,7 @@ export function Hero() {
           <div className="flex flex-col items-center gap-3 lg:items-start">
             <Button asChild size="lg">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                Agenda tu Línea de la Vida sin costo
+                Agenda tu diagnóstico
               </a>
             </Button>
           </div>

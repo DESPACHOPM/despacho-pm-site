@@ -2,6 +2,8 @@ import Image from "next/image";
 
 import { Reveal } from "@/components/motion/reveal";
 import { Badge } from "@/components/ui/badge";
+import { ConoceMas } from "@/components/sections/conoce-mas";
+import type { Situacion } from "@/lib/articulos";
 import { ALSO_SOLVE } from "@/lib/site-data";
 
 export function AlsoSolve() {
@@ -99,14 +101,17 @@ export function AlsoSolve() {
                     </ul>
                   )}
 
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-1 font-semibold text-primary hover:text-accent-dark"
-                  >
-                    {item.cta}
-                  </a>
+                  <div className="mt-1 flex flex-col gap-2">
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-primary hover:text-accent-dark"
+                    >
+                      {item.cta}
+                    </a>
+                    <ConoceMas situacion={item.situacion as Situacion | null} />
+                  </div>
 
                   {item.footnote && (
                     <p className="mt-auto pt-3 text-xs leading-snug text-muted">

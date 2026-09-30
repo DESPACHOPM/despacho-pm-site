@@ -1,5 +1,5 @@
 export const WHATSAPP_URL =
-  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Quiero%20agendar%20mi%20L%C3%ADnea%20de%20la%20Vida.";
+  "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM.%20Quiero%20agendar%20mi%20diagn%C3%B3stico.";
 
 export const WHATSAPP_URL_CONTADORES =
   "https://wa.me/5215621270724?text=Hola%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20Despacho%20PM%20y%20me%20interesa%20platicar%20sobre%20una%20alianza.%0A%0A%C2%A1Gracias%21";
@@ -37,6 +37,7 @@ export const NAV_LINKS = [
   { href: "/#historia", label: "Mi historia" },
   { href: "/#clientes", label: "Clientes" },
   { href: "/#preguntas", label: "Preguntas" },
+  { href: "/articulos", label: "Artículos" },
 ];
 
 export const CREDENTIALS = [
@@ -91,7 +92,7 @@ export const SITUATIONS = [
 export const ACCOMPANIMENT = [
   {
     number: "01",
-    title: "Línea de la Vida",
+    title: "Diagnóstico",
     lines: [
       "Vemos tu vida completa en una sola línea.",
       "Lo que tienes, lo que viene y lo que falta.",
@@ -136,6 +137,7 @@ export const ALSO_SOLVE = [
       "Referencia: colegiatura Tec de Monterrey ago–dic 2026, 9 semestres; promedio universidad privada EUA, College Board 2025-26. Sin inflación.",
     cta: "Planea su universidad →",
     href: WHATSAPP_URL_EDUCACION,
+    situacion: null,
   },
   {
     eyebrow: "Tu retiro con el IMSS y tu Afore",
@@ -155,6 +157,7 @@ export const ALSO_SOLVE = [
     footnote: null,
     cta: "Revisa tu retiro →",
     href: WHATSAPP_URL_RETIRO,
+    situacion: "RETIRO",
   },
   {
     eyebrow: "Ahorro en dólares",
@@ -167,6 +170,7 @@ export const ALSO_SOLVE = [
     footnote: null,
     cta: "Platiquemos tu caso →",
     href: WHATSAPP_URL_DOLARES,
+    situacion: null,
   },
   {
     eyebrow: "Crédito con estrategia",
@@ -188,6 +192,7 @@ export const ALSO_SOLVE = [
       "Asesoría sin costo. También apoyamos financiamiento para tu empresa: capital de trabajo, adquisición de activos, arrendamiento y factoraje.",
     cta: "Platiquemos tu crédito →",
     href: WHATSAPP_URL_CREDITO,
+    situacion: null,
   },
 ];
 
@@ -244,9 +249,9 @@ export const FAQS = [
       "Trabajo con aseguradoras reguladas y supervisadas por la CNSF. La ley les exige reservas para responder por cada póliza.",
   },
   {
-    question: "¿Cómo es la Línea de la Vida?",
+    question: "¿Cómo es el diagnóstico?",
     answer:
-      "Platicamos de 30 a 40 minutos, sin costo. Si no tiene sentido trabajar juntos, te lo digo directamente.",
+      "Es una herramienta única que te permite ver todo tu panorama actual en una sola página. Platicamos de 30 a 45 minutos, sin costo. Si no tiene sentido trabajar juntos, te lo digo directamente.",
   },
 ];
 

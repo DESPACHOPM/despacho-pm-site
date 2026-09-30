@@ -1,5 +1,7 @@
 import { Reveal } from "@/components/motion/reveal";
 import { Badge } from "@/components/ui/badge";
+import { ConoceMas } from "@/components/sections/conoce-mas";
+import type { Situacion } from "@/lib/articulos";
 import { SITUATIONS, WHATSAPP_URL } from "@/lib/site-data";
 
 export function Situations() {
@@ -27,12 +29,7 @@ export function Situations() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {SITUATIONS.map((situation, index) => (
             <Reveal key={situation.cta} delay={0.18 + index * 0.05}>
-              <a
-                href={situation.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex h-full flex-col gap-4 rounded-2xl bg-surface/8 p-7 transition-colors duration-150 ease-out hover:bg-surface/12"
-              >
+              <div className="flex h-full flex-col gap-4 rounded-2xl bg-surface/8 p-7 transition-colors duration-150 ease-out hover:bg-surface/12">
                 <p className="font-heading text-xl leading-snug text-surface">
                   {situation.lines.map((line) => (
                     <span key={line} className="block">
@@ -40,10 +37,21 @@ export function Situations() {
                     </span>
                   ))}
                 </p>
-                <span className="mt-auto font-semibold text-accent">
-                  Escríbeme {situation.cta} →
-                </span>
-              </a>
+                <div className="mt-auto flex flex-col gap-2">
+                  <a
+                    href={situation.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-accent"
+                  >
+                    Escríbeme {situation.cta} →
+                  </a>
+                  <ConoceMas
+                    situacion={situation.cta as Situacion}
+                    className="text-surface/70"
+                  />
+                </div>
+              </div>
             </Reveal>
           ))}
 
@@ -58,7 +66,7 @@ export function Situations() {
                 ¿No estás seguro de cuál es la tuya?
               </p>
               <p className="text-[15px] leading-relaxed text-surface/80">
-                Para eso existe la Línea de la Vida.
+                Para eso existe el diagnóstico.
               </p>
               <span className="mt-auto font-semibold text-accent">
                 Agenda tu diagnóstico →
