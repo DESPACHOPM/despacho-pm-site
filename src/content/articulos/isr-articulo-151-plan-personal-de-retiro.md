@@ -6,6 +6,8 @@ fecha: 2026-10-12
 situacion: DEDUCE
 central: no
 piso: 1
+seoTitulo: "Cómo deducir tu PPR en 2026: Artículo 151 de la Ley del ISR"
+seoDescripcion: "Cuánto puedes deducir en 2026 con un Plan Personal de Retiro, a quién le aplica y qué revisar antes de aportar. Artículo 151 de la Ley del ISR."
 ---
 
 Cada abril, la declaración anual llega como un resultado que nadie diseñó. A veces hay saldo a favor, a veces saldo a cargo, y casi nunca hay una estrategia detrás. Sin embargo, la Ley del ISR contempla mecanismos concretos para reducir tu base gravable mientras construyes ahorro para tu retiro. El más accesible está en el Artículo 151 y tiene nombre: Plan Personal de Retiro (PPR).

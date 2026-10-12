@@ -23,17 +23,18 @@ export async function generateMetadata({
   const articulo = getArticuloBySlug(slug);
   if (!articulo) return {};
 
-  const title = `${articulo.titulo} | Despacho PM`;
+  const title = articulo.seoTitulo ?? `${articulo.titulo} | Despacho PM`;
+  const description = articulo.seoDescripcion ?? articulo.descripcion;
 
   return {
     title,
-    description: articulo.descripcion,
+    description,
     alternates: {
       canonical: `/articulos/${articulo.slug}`,
     },
     openGraph: {
       title,
-      description: articulo.descripcion,
+      description,
       url: `/articulos/${articulo.slug}`,
       siteName: "Despacho PM",
       locale: "es_MX",
@@ -51,7 +52,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       title,
-      description: articulo.descripcion,
+      description,
       images: ["/images/og-image.png"],
     },
   };

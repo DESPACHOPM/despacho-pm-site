@@ -36,6 +36,10 @@ export type ArticuloSummary = {
   situacion: Situacion;
   central: boolean;
   piso: number | null;
+  // Opcionales: título y descripción para Google (si no existen, se usan
+  // titulo + " | Despacho PM" y descripcion).
+  seoTitulo?: string;
+  seoDescripcion?: string;
 };
 
 export type Articulo = ArticuloSummary & {
@@ -99,6 +103,8 @@ function toSummary(slug: string, data: Record<string, unknown>): ArticuloSummary
     situacion: (data.situacion as Situacion) ?? "GENERAL",
     central: String(data.central ?? "no").toLowerCase() === "si",
     piso: Number.isFinite(piso) ? piso : null,
+    seoTitulo: data.seoTitulo ? String(data.seoTitulo) : undefined,
+    seoDescripcion: data.seoDescripcion ? String(data.seoDescripcion) : undefined,
   };
 }
 
