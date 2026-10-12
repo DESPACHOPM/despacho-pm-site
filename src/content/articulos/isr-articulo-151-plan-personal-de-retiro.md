@@ -1,6 +1,6 @@
 ---
 titulo: "El ISR que pagas de más cada abril, y el artículo de la ley que te permite reducirlo"
-descripcion: "El Artículo 151 de la Ley del ISR te permite deducir tus aportaciones para el retiro. Cuánto puedes deducir en 2026 y a quién sí le aplica."
+descripcion: "El Artículo 151 de la Ley del ISR te permite deducir tus aportaciones para el retiro. Cuánto puedes deducir en 2026, a quién le aplica y qué revisar antes de aportar."
 slug: isr-articulo-151-plan-personal-de-retiro
 fecha: 2026-10-12
 situacion: DEDUCE
@@ -8,89 +8,69 @@ central: no
 piso: 1
 ---
 
-Con una base gravable de $ 1,200,000.00 MXN al año, la Ley del ISR te permite deducir hasta $ 120,000.00 MXN si los destinas a tu propio retiro.
+Cada abril, la declaración anual llega como un resultado que nadie diseñó. A veces hay saldo a favor, a veces saldo a cargo, y casi nunca hay una estrategia detrás. Sin embargo, la Ley del ISR contempla mecanismos concretos para reducir tu base gravable mientras construyes ahorro para tu retiro. El más accesible está en el Artículo 151 y tiene nombre: Plan Personal de Retiro (PPR).
 
-Si no lo haces, alrededor de $ 36,000.00 MXN de ese dinero se van en ISR.
+Para dimensionarlo: con una base gravable de $ 1,200,000.00 MXN al año, la ley te permite deducir hasta $ 120,000.00 MXN que destines a tu retiro. Si no lo aprovechas, alrededor de $ 36,000.00 MXN de ese monto terminan pagándose como ISR, cuando pudieron quedarse trabajando a tu favor.
 
-Ese mismo dinero pudo quedarse en tu fondo de retiro.
+> ¿Sabes cuánto dedujiste en tu última declaración anual y cuánto pudiste haber deducido?
 
-No es un truco ni una zona gris. Es el Artículo 151 de la Ley del ISR, y probablemente no lo estás usando.
-
-Antes de seguir, una pregunta:
-
-**¿Sabes cuánto dedujiste en tu última declaración anual… y cuánto pudiste deducir?**
-
-Si la respuesta es "no sé", este artículo es para ti.
-
-## Lo que aprendí antes de dedicarme a esto
-
-Trabajé más de diez años en proyectos del sector ambiental, petrolero y energético.
-
-Ahí aprendí que el riesgo más caro siempre era el que nadie calculaba.
-
-Con el dinero pasa igual. El problema no suele ser cuánto ganas. Es lo que se va cada año sin que nadie lo revise.
-
-## La declaración anual no tiene que ser una lotería
-
-Cada abril, millones de personas presentan su declaración y esperan el resultado: a veces hay saldo a favor, a veces hay saldo a cargo. Y rara vez hay una estrategia detrás.
-
-La declaración puede ser el resultado de decisiones tomadas durante el año. Una de las más accesibles es aportar a un Plan Personal de Retiro (PPR).
+Si no tienes la respuesta a la mano, este artículo te da los elementos para calcularla.
 
 ## Qué es un Plan Personal de Retiro
 
-Es un instrumento de ahorro a largo plazo, contratado con una institución autorizada, que la Ley del ISR reconoce para complementar tu retiro.
+Es una cuenta o instrumento de inversión, contratado con una institución autorizada, cuyo único fin es acumular recursos para que los uses a partir de los 65 años, o antes en caso de invalidez o incapacidad para trabajar. La ley lo reconoce como complemento de tu Afore y, a cambio de ese compromiso de largo plazo, te permite deducir lo que aportas.
 
-Su beneficio fiscal: si se cumplen los requisitos, tus aportaciones son deducibles. Ese monto reduce tu base gravable en la declaración anual.
+En la práctica, cada peso que aportas reduce tu base gravable del año. Ahorras para tu retiro y, al mismo tiempo, pagas menos ISR.
 
-Ahorras para ti. Y pagas menos ISR por hacerlo.
+## Cuánto puedes deducir en 2026
 
-## Los números en 2026
+El límite es el que resulte menor entre dos cantidades: el 10% de tus ingresos acumulables del año, o 5 UMA anuales, que en 2026 equivalen a **$ 213,973.20 MXN**.
 
-El Artículo 151 de la Ley del ISR permite deducir las aportaciones a un PPR hasta el 10% de tus ingresos acumulables del año, con un tope de 5 UMA anuales: $ 213,973.20 MXN en 2026.
+Hay un detalle que pocos conocen: esta deducción no cuenta dentro del límite global de deducciones personales, el que aplica a gastos médicos o intereses hipotecarios, entre otros. Es un espacio adicional, no uno que compita con lo que ya deduces.
 
-Dos ejemplos con la tarifa anual 2026, si se cumplen los requisitos:
+Así se ve el efecto con la tarifa anual 2026, si se cumplen los requisitos:
 
-- **Base gravable de $ 600,000.00 MXN:** aportas $ 60,000.00 MXN. Con tasa marginal de 23.52%, tu ISR bajaría alrededor de $ 14,112.00 MXN.
-- **Base gravable de $ 1,200,000.00 MXN:** aportas $ 120,000.00 MXN. Con tasa marginal de 30%, tu ISR bajaría alrededor de $ 36,000.00 MXN.
+| Base gravable anual | Aportación deducible | Tasa marginal | Efecto aproximado en ISR |
+| --- | --- | --- | --- |
+| $ 600,000.00 MXN | $ 60,000.00 MXN | 23.52% | $ 14,112.00 MXN |
+| $ 1,200,000.00 MXN | $ 120,000.00 MXN | 30% | $ 36,000.00 MXN |
 
-Son ejemplos simplificados. Tu cifra real depende de tu régimen, tus otras deducciones y tu situación completa.
+Son cálculos simplificados. La cifra real depende de tu régimen, de tus otras deducciones y del total de tus ingresos del año.
 
-## Lo que cuesta esperar
+## ¿Te aplica? Tres preguntas para saberlo
 
-Cada año sin aportar es, al mismo tiempo: un año de ISR que no se recupera, un año de interés compuesto que no se genera y un año menos para construir tu fondo.
+1. **¿Tus ingresos tributan en RESICO?** En ese régimen no se aplican deducciones personales. Si todos tus ingresos están ahí, el PPR no te dará beneficio fiscal.
+2. **¿Tu base gravable supera los $ 424,353.98 MXN anuales?** A partir de ahí tu tasa marginal es de 23.52% o más, y el efecto se vuelve significativo.
+3. **¿Tu retiro depende sólo de tu Afore?** Entonces hay un hueco que conviene cubrir, con o sin beneficio fiscal de por medio.
 
-No es catastrofismo. Es aritmética.
+Si respondiste "no", "sí" y "sí", tu caso merece una revisión.
 
-Empezar a los 30 o empezar a los 40 con la misma aportación mensual produce fondos muy distintos al momento del retiro.
+## Lo que hay que saber antes de aportar
 
-Muchas veces el dinero sí existe. Lo que falta es la estructura para que trabaje.
+El beneficio fiscal viene acompañado de condiciones, y conocerlas desde el inicio evita sorpresas:
 
-## ¿A quién sí le aplica?
+- **El dinero tiene un destino.** Si retiras antes de los 65 años, salvo invalidez o incapacidad, lo retirado se considera ingreso y paga ISR.
+- **La deducción se aplica en tu declaración anual**, con base en las aportaciones que hagas durante el año y la constancia que emite la institución.
+- **El instrumento debe estar constituido como plan personal de retiro.** No cualquier ahorro de largo plazo califica.
 
-Tres preguntas rápidas:
+## Cuando el PPR se queda corto: el Artículo 185
 
-1. **¿Estás en RESICO?** Si sí, esta deducción personal no te aplica en ese régimen.
-2. **¿Tu base gravable anual supera los $ 424,353.98 MXN?** A partir de ahí la tasa marginal es de 23.52% o más, y el efecto se nota.
-3. **¿Tu retiro depende sólo de la Afore?** Si sí, tienes un hueco que el PPR puede ayudar a cubrir.
+Si tus ingresos crecieron, el 10% puede superar el tope de 5 UMA, y ese excedente ya no se deduce por el Artículo 151.
 
-Si respondiste "no", "sí" y "sí", vale la pena revisar tu caso.
+Para ese escenario existe el Artículo 185 de la Ley del ISR, que permite restar hasta $ 152,000.00 MXN al año por depósitos en cuentas personales especiales para el ahorro y por primas de seguros con base en planes de pensiones relacionados con la edad, la jubilación o el retiro, siempre que cumplan los requisitos de la ley. Es una base independiente del PPR.
 
-## ¿Y si ya tienes PPR y llegaste al tope?
+Su lógica es distinta: funciona como un diferimiento. Lo que retires después, junto con sus rendimientos, se considera ingreso en el año en que lo retires. Por eso conviene revisarlo con detalle antes de decidir, idealmente junto con tu contador.
 
-Si tu ingreso creció, el 10% puede superar el tope de 5 UMA, y ese excedente ya no se deduce por el Artículo 151.
+## Por qué no conviene esperar
 
-Para ese caso existe el Artículo 185 de la Ley del ISR. Contempla cuentas y seguros especiales de ahorro que cumplan los requisitos de la ley. Funciona distinto al PPR: lo que retires después se considera ingreso en ese momento.
+La deducción del PPR no se acumula: el espacio que no usas este año se pierde. A eso se suma el tiempo, que en el ahorro de largo plazo pesa más que el monto. Empezar a los 30 o empezar a los 40 con la misma aportación mensual produce fondos muy distintos al momento del retiro, por el efecto del interés compuesto.
 
-Conviene revisarlo con detalle antes de decidir. Pero si ya tienes PPR y tu ingreso creció, quizá todavía no estás en el tope de lo que puedes optimizar.
+En la mayoría de los casos el dinero sí existe. Lo que falta es una estructura que le dé destino.
 
 ## El siguiente paso
 
-Este artículo no busca venderte nada. Busca que sepas que esta herramienta existe y qué números hay detrás.
+Saber cuánto te corresponde deducir requiere ver tu caso completo: tu régimen, tus ingresos, lo que ya tienes y lo que quieres lograr. Para eso trabajo con una herramienta de diagnóstico única que, por su naturaleza, permite visualizar todo tu panorama actual en una sola página.
 
-Si quieres saber cuánto podrías deducir tú, el siguiente paso es una sesión de 30 a 45 minutos. Ahí usamos una herramienta de diagnóstico única que, por su naturaleza, permite visualizar todo tu panorama actual en una sola página.
-
-Sales con tus números claros. La sesión no tiene costo.
-
-Escríbeme **DEDUCE** por WhatsApp.
+La sesión dura de 30 a 45 minutos, no tiene costo y sales con tus números claros. Escríbeme **DEDUCE** por WhatsApp y la agendamos.
 
 *La tranquilidad financiera no es casualidad: es estructura.*
