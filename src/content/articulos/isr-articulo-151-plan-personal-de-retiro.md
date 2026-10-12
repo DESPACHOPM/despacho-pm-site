@@ -10,7 +10,7 @@ piso: 1
 
 Cada abril, la declaración anual llega como un resultado que nadie diseñó. A veces hay saldo a favor, a veces saldo a cargo, y casi nunca hay una estrategia detrás. Sin embargo, la Ley del ISR contempla mecanismos concretos para reducir tu base gravable mientras construyes ahorro para tu retiro. El más accesible está en el Artículo 151 y tiene nombre: Plan Personal de Retiro (PPR).
 
-Para dimensionarlo: con una base gravable de $ 1,200,000.00 MXN al año, la ley te permite deducir hasta $ 120,000.00 MXN que destines a tu retiro. Si no lo aprovechas, alrededor de $ 36,000.00 MXN de ese monto terminan pagándose como ISR, cuando pudieron quedarse trabajando a tu favor.
+Para dimensionarlo: con ingresos acumulables de $ 1,200,000.00 MXN al año, la ley te permite deducir hasta $ 120,000.00 MXN que destines a tu retiro. Si no lo aprovechas, alrededor de $ 36,000.00 MXN de ese monto terminan pagándose como ISR, cuando pudieron quedarse trabajando a tu favor.
 
 > ¿Sabes cuánto dedujiste en tu última declaración anual y cuánto pudiste haber deducido?
 
@@ -30,7 +30,7 @@ Hay un detalle que pocos conocen: esta deducción no cuenta dentro del límite g
 
 Así se ve el efecto con la tarifa anual 2026, si se cumplen los requisitos:
 
-| Base gravable anual | Aportación deducible | Tasa marginal | Efecto aproximado en ISR |
+| Ingresos acumulables del año | Aportación deducible (10%) | Tasa marginal | Efecto aproximado en ISR |
 | --- | --- | --- | --- |
 | $ 600,000.00 MXN | $ 60,000.00 MXN | 23.52% | $ 14,112.00 MXN |
 | $ 1,200,000.00 MXN | $ 120,000.00 MXN | 30% | $ 36,000.00 MXN |
