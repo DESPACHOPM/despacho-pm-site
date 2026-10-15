@@ -16,8 +16,8 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={0.08} className="order-2 lg:[grid-column:1] lg:[grid-row:2]">
-          <p className="mx-auto max-w-xl text-center text-base leading-relaxed text-foreground/80 sm:text-lg lg:mx-0 lg:text-left">
-            Antes de crecer, hay que saber qué estás protegiendo.
+          <p className="mx-auto max-w-xl text-balance text-center text-base leading-relaxed text-foreground/80 sm:text-lg lg:mx-0 lg:text-left">
+            Antes de pensar en crecer, hay que saber qué estás protegiendo.
             <br />
             Acompaño a personas y empresas en México, paso a paso, a decidir
             con estructura y solidez, no con corazonadas.
