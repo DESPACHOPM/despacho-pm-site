@@ -45,7 +45,7 @@ export function Hero() {
 
         <Reveal
           delay={0.2}
-          className="relative order-4 mx-auto aspect-[16/9] w-full sm:aspect-[4/5] max-w-sm self-stretch overflow-hidden rounded-3xl lg:order-none lg:mx-0 lg:aspect-auto lg:max-w-none lg:[grid-column:2] lg:[grid-row:1/-1] lg:self-stretch"
+          className="relative order-4 mx-auto aspect-[4/5] w-full max-w-sm self-stretch overflow-hidden rounded-3xl lg:order-none lg:mx-0 lg:aspect-auto lg:max-w-none lg:[grid-column:2] lg:[grid-row:1/-1] lg:self-stretch"
         >
           <Image
             src="/images/pedro-hero.jpg"
