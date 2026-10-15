@@ -9,27 +9,22 @@ export function Hero() {
     <section id="inicio" className="relative overflow-hidden">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-(--spacing-gutter) pb-20 pt-16 md:pb-28 md:pt-24 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:grid-rows-[auto_auto_auto_auto_auto] lg:gap-x-16 lg:gap-y-6">
         <Reveal className="order-1 lg:[grid-column:1] lg:[grid-row:1]">
-          <p className="text-center font-heading text-lg italic text-accent-dark lg:text-left">
-            &ldquo;Tu ingreso depende de ti. Tu estructura no debería.&rdquo;
-          </p>
-        </Reveal>
-
-        <Reveal delay={0.08} className="order-2 lg:[grid-column:1] lg:[grid-row:2]">
           <h1 className="text-center font-heading text-4xl leading-[1.15] text-primary sm:text-5xl md:text-6xl lg:text-left">
             Trabajo con profesionistas y dueños de negocio que quieren
             certeza financiera, no solo ingresos.
           </h1>
         </Reveal>
 
-        <Reveal delay={0.16} className="order-3 lg:[grid-column:1] lg:[grid-row:3]">
+        <Reveal delay={0.08} className="order-2 lg:[grid-column:1] lg:[grid-row:2]">
           <p className="mx-auto max-w-xl text-center text-lg leading-relaxed text-foreground/80 lg:mx-0 lg:text-left">
-            Antes de pensar en crecer, hay que saber qué estás protegiendo.
-            Acompaño a personas y empresas en México a tomar decisiones
-            financieras con base en estructura, no en corazonadas.
+            Antes de crecer, hay que saber qué estás protegiendo.
+            <br />
+            Acompaño a personas y empresas en México, paso a paso, a decidir
+            con estructura y solidez, no con corazonadas.
           </p>
         </Reveal>
 
-        <Reveal delay={0.24} className="order-4 lg:[grid-column:1] lg:[grid-row:4]">
+        <Reveal delay={0.16} className="order-3 lg:[grid-column:1] lg:[grid-row:3]">
           <div className="flex flex-col items-center gap-3 lg:items-start">
             <Button asChild size="lg">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
@@ -37,6 +32,12 @@ export function Hero() {
               </a>
             </Button>
           </div>
+        </Reveal>
+
+        <Reveal delay={0.24} className="order-4 lg:[grid-column:1] lg:[grid-row:4]">
+          <p className="text-center font-heading text-lg italic text-accent-dark lg:text-left">
+            &ldquo;Tu ingreso depende de ti. Tu estructura trabaja por ti.&rdquo;
+          </p>
         </Reveal>
 
         <Reveal
