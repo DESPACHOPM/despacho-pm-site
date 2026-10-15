@@ -7,7 +7,7 @@ import { CREDENTIALS, WHATSAPP_URL } from "@/lib/site-data";
 export function Hero() {
   return (
     <section id="inicio" className="relative overflow-hidden">
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-(--spacing-gutter) pb-16 pt-4 sm:gap-8 sm:pt-16 md:pb-28 md:pt-24 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:grid-rows-[auto_auto_auto_auto_auto] lg:gap-x-16 lg:gap-y-6">
+      <div className="mx-auto flex max-w-6xl flex-col gap-7 px-(--spacing-gutter) pb-16 pt-4 sm:gap-8 sm:pt-16 md:pb-28 md:pt-24 lg:grid lg:grid-cols-[1.15fr_0.85fr] lg:grid-rows-[auto_auto_auto_auto_auto] lg:gap-x-16 lg:gap-y-6">
         <Reveal className="order-1 lg:[grid-column:1] lg:[grid-row:1]">
           <h1 className="text-center font-heading text-[1.65rem] leading-[1.15] text-primary sm:text-5xl md:text-6xl lg:text-left">
             Trabajo con profesionistas y dueños de negocio que quieren
@@ -17,10 +17,13 @@ export function Hero() {
 
         <Reveal delay={0.08} className="order-2 lg:[grid-column:1] lg:[grid-row:2]">
           <p className="mx-auto max-w-xl text-balance text-center text-base leading-relaxed text-foreground/80 sm:text-lg lg:mx-0 lg:text-left">
-            Antes de pensar en crecer, hay que saber qué estás protegiendo.
-            <br />
-            Acompaño a personas y empresas en México, paso a paso, a decidir
-            con estructura y solidez, no con corazonadas.
+            <span className="block">
+              Antes de pensar en crecer, hay que saber qué estás protegiendo.
+            </span>
+            <span className="mt-4 block">
+              Acompaño a personas y empresas en México, paso a paso, a decidir
+              con estructura y solidez, no con corazonadas.
+            </span>
           </p>
         </Reveal>
 
@@ -42,7 +45,7 @@ export function Hero() {
 
         <Reveal
           delay={0.2}
-          className="relative order-4 mx-auto aspect-[4/3] w-full sm:aspect-[4/5] max-w-sm self-stretch overflow-hidden rounded-3xl lg:order-none lg:mx-0 lg:aspect-auto lg:max-w-none lg:[grid-column:2] lg:[grid-row:1/-1] lg:self-stretch"
+          className="relative order-4 mx-auto aspect-[16/9] w-full sm:aspect-[4/5] max-w-sm self-stretch overflow-hidden rounded-3xl lg:order-none lg:mx-0 lg:aspect-auto lg:max-w-none lg:[grid-column:2] lg:[grid-row:1/-1] lg:self-stretch"
         >
           <Image
             src="/images/pedro-hero.jpg"
