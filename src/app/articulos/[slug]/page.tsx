@@ -77,6 +77,9 @@ export default async function ArticuloPage({
   const articulo = getArticuloBySlug(slug);
   if (!articulo) notFound();
 
+  // Títulos con forma "Idea: ¿pregunta?": la pregunta va completa en su propia línea.
+  const tituloPartes = articulo.titulo.match(/^(.+:)\s+(¿[^?]+\?)$/);
+
   return (
     <>
       <Nav />
@@ -86,8 +89,17 @@ export default async function ArticuloPage({
 
           <p className="mt-4 text-sm text-muted">{formatFecha(articulo.fecha)}</p>
           <h1 className="mt-2 font-heading text-3xl leading-snug text-balance text-primary sm:text-4xl">
-            {articulo.titulo.replace(/\s+(\S+)$/, "\u00A0$1")}
-          </h1>
+            {tituloPartes ? (
+                <>
+                  {tituloPartes[1]}
+                  <span className="mt-2 block text-[clamp(1.05rem,5.8vw,2.25rem)] whitespace-nowrap">
+                    {tituloPartes[2]}
+                  </span>
+                </>
+            ) : (
+              articulo.titulo.replace(/\s+(\S+)$/, "\u00A0$1")
+            )}
+        </h1>
 
           <div
             className="prose-articulo mt-8 text-[17px] leading-relaxed text-foreground/85"
