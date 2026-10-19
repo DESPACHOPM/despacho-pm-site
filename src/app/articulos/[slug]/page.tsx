@@ -88,11 +88,11 @@ export default async function ArticuloPage({
           {!articulo.central && articulo.piso && <ArticuloAscensorLink />}
 
           <p className="mt-4 text-sm text-muted">{formatFecha(articulo.fecha)}</p>
-          <h1 className="mt-2 font-heading text-3xl leading-snug text-balance text-primary sm:text-4xl">
+          <h1 className={`mt-2 font-heading leading-snug text-balance text-primary ${tituloPartes ? "text-[clamp(1.05rem,5.8vw,2.25rem)]" : "text-3xl sm:text-4xl"}`}>
             {tituloPartes ? (
                 <>
                   {tituloPartes[1]}
-                  <span className="mt-2 block text-[clamp(1.05rem,5.8vw,2.25rem)] whitespace-nowrap">
+                  <span className="mt-2 block whitespace-nowrap">
                     {tituloPartes[2]}
                   </span>
                 </>
