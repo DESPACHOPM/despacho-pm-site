@@ -84,6 +84,7 @@ h4,
 
 /* Tipografía del cuerpo de los artículos (contenido Markdown renderizado). */
 .prose-articulo h2 {
+  text-wrap: balance;
   margin-top: 2.25em;
   margin-bottom: 0.75em;
   font-family: var(--font-heading);
@@ -93,12 +94,18 @@ h4,
 }
 
 .prose-articulo h3 {
+  text-wrap: balance;
   margin-top: 1.75em;
   margin-bottom: 0.5em;
   font-family: var(--font-heading);
   font-size: 1.25rem;
   line-height: 1.3;
   color: var(--color-primary);
+}
+
+.prose-articulo p,
+.prose-articulo li {
+  text-wrap: pretty;
 }
 
 .prose-articulo p {

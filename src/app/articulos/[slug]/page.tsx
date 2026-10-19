@@ -85,8 +85,8 @@ export default async function ArticuloPage({
           {!articulo.central && articulo.piso && <ArticuloAscensorLink />}
 
           <p className="mt-4 text-sm text-muted">{formatFecha(articulo.fecha)}</p>
-          <h1 className="mt-2 font-heading text-3xl leading-snug text-primary sm:text-4xl">
-            {articulo.titulo}
+          <h1 className="mt-2 font-heading text-3xl leading-snug text-balance text-primary sm:text-4xl">
+            {articulo.titulo.replace(/\s+(\S+)$/, "\u00A0$1")}
           </h1>
 
           <div

@@ -108,6 +108,18 @@ function toSummary(slug: string, data: Record<string, unknown>): ArticuloSummary
   };
 }
 
+/**
+ * Une las dos últimas palabras de cada párrafo, viñeta y subtítulo con un
+ * espacio sin salto, para que ninguna palabra quede sola en la última línea
+ * (también en navegadores que no soportan text-wrap: pretty).
+ */
+function evitarPalabraSola(html: string): string {
+  return html.replace(
+    /([^\s>])[ \t]+([^\s<>]+)(?=<\/(?:p|li|h2|h3)>)/g,
+    "$1&nbsp;$2",
+  );
+}
+
 export function getAllArticulos(): ArticuloSummary[] {
   const articulos = readSlugs().map((slug) => {
     const { data } = readArticuloRaw(slug);
@@ -124,7 +136,9 @@ export function getArticuloBySlug(slug: string): Articulo | null {
   if (!readSlugs().includes(slug)) return null;
 
   const { data, content } = readArticuloRaw(slug);
-  const contentHtml = marked.parse(content, { async: false }) as string;
+  const contentHtml = evitarPalabraSola(
+    marked.parse(content, { async: false }) as string,
+  );
 
   return { ...toSummary(slug, data), contentHtml };
 }
