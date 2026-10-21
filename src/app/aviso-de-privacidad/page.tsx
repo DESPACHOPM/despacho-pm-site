@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { Nav } from "@/components/sections/nav";
 import { Footer } from "@/components/sections/footer";
+import { pageSocial } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Aviso de Privacidad | Despacho PM",
@@ -10,6 +11,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/aviso-de-privacidad",
   },
+  ...pageSocial({
+    title: "Aviso de Privacidad | Despacho PM",
+    description:
+      "Aviso de privacidad de Despacho PM, en cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).",
+    path: "/aviso-de-privacidad",
+  }),
 };
 
 export default function AvisoDePrivacidad() {

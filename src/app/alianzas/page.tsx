@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Nav } from "@/components/sections/nav";
 import { Accountants } from "@/components/sections/accountants";
 import { Footer } from "@/components/sections/footer";
+import { pageSocial } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Alianzas para contadores, abogados y notarios | Despacho PM",
@@ -11,6 +12,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/alianzas",
   },
+  ...pageSocial({
+    title: "Alianzas para contadores, abogados y notarios | Despacho PM",
+    description:
+      "Contadores, fiscalistas, abogados, agentes inmobiliarios y notarios: seamos aliados. Sumamos estructura financiera a la relación de confianza que ya tienes con tus clientes.",
+    path: "/alianzas",
+  }),
 };
 
 export default function Alianzas() {

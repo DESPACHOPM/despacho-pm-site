@@ -6,6 +6,7 @@ import { Footer } from "@/components/sections/footer";
 import { Reveal } from "@/components/motion/reveal";
 import { Badge } from "@/components/ui/badge";
 import { getAllArticulos } from "@/lib/articulos";
+import { pageSocial } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Artículos de retiro, impuestos y protección | Despacho PM",
@@ -14,6 +15,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/articulos",
   },
+  ...pageSocial({
+    title: "Artículos de retiro, impuestos y protección | Despacho PM",
+    description:
+      "Ideas y marcos para tomar decisiones financieras con estructura: ahorro, protección personal y protección empresarial.",
+    path: "/articulos",
+  }),
 };
 
 function formatFecha(fecha: string) {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { Nav } from "@/components/sections/nav";
@@ -79,6 +80,12 @@ export default async function ArticuloPage({
   const { slug } = await params;
   const articulo = getArticuloBySlug(slug);
   if (!articulo) notFound();
+
+  // Otros artículos para enlazar al final (el central primero, luego los más
+  // recientes). Ayuda a Google y a quien lee a seguir por el sitio.
+  const relacionados = getAllArticulos()
+    .filter((otro) => otro.slug !== articulo.slug)
+    .slice(0, 3);
 
   // Títulos con forma "Idea: ¿pregunta?": la pregunta va completa en su propia línea.
   const tituloPartes = articulo.titulo.match(/^(.+:)\s+(¿[^?]+\?)$/);
@@ -175,6 +182,29 @@ export default async function ArticuloPage({
           />
 
           {articulo.central && <ArticuloPisosList />}
+
+          {relacionados.length > 0 && (
+            <nav aria-label="Sigue leyendo" className="mt-14">
+              <p className="font-heading text-xl text-primary">Sigue leyendo</p>
+              <ul className="mt-4 divide-y divide-border border-y border-border">
+                {relacionados.map((otro) => (
+                  <li key={otro.slug}>
+                    <Link
+                      href={`/articulos/${otro.slug}`}
+                      className="block py-4 transition-colors hover:text-accent-dark"
+                    >
+                      <span className="block font-heading text-lg leading-snug text-primary">
+                        {otro.titulo}
+                      </span>
+                      <span className="mt-1 block text-[15px] leading-relaxed text-foreground/75">
+                        {otro.descripcion}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
 
           <ArticuloCta situacion={articulo.situacion} />
         </article>
