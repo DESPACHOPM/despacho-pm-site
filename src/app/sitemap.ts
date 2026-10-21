@@ -11,6 +11,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date("2026-10-20T00:00:00");
   const articulos = getAllArticulos();
 
+  // La lista de /articulos cambia cada vez que se publica un artículo nuevo,
+  // así que su fecha es la del artículo más reciente (nunca anterior a la base).
+  const fechaMasReciente = articulos.map((a) => a.fecha).sort().at(-1);
+  const articulosLastModified = fechaMasReciente
+    ? new Date(
+        Math.max(
+          lastModified.getTime(),
+          new Date(`${fechaMasReciente}T00:00:00`).getTime(),
+        ),
+      )
+    : lastModified;
+
   return [
     {
       url: siteUrl,
@@ -32,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteUrl}/articulos`,
-      lastModified,
+      lastModified: articulosLastModified,
       changeFrequency: "weekly",
       priority: 0.7,
     },
