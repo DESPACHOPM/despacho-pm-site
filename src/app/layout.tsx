@@ -106,6 +106,16 @@ const organizationSchema = {
   sameAs: SOCIAL_LINKS.map((link) => link.href),
 };
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${siteUrl}/#website`,
+  name: "Despacho PM",
+  url: siteUrl,
+  inLanguage: "es-MX",
+  publisher: { "@id": `${siteUrl}/#organization` },
+};
+
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -130,6 +140,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="es" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <JsonLd data={organizationSchema} />
+        <JsonLd data={websiteSchema} />
         <JsonLd data={personSchema} />
         <MetaPixel />
         {children}

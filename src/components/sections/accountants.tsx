@@ -31,9 +31,9 @@ export function Accountants() {
                 </Reveal>
 
                 <Reveal delay={0.08}>
-                  <h2 className="mt-6 font-heading text-3xl leading-snug text-primary sm:text-4xl">
+                  <h1 className="mt-6 font-heading text-3xl leading-snug text-primary sm:text-4xl">
                     {ACCOUNTANTS.heading}
-                  </h2>
+                  </h1>
                 </Reveal>
               </div>
 

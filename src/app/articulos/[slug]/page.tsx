@@ -110,9 +110,31 @@ export default async function ArticuloPage({
     },
   };
 
+  // Ruta de navegación (Inicio > Artículos > este artículo) para Google y la IA.
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Artículos",
+        item: `${siteUrl}/articulos`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: articulo.titulo,
+        item: `${siteUrl}/articulos/${articulo.slug}`,
+      },
+    ],
+  };
+
   return (
     <>
       <JsonLd data={articleSchema} />
+      <JsonLd data={breadcrumbSchema} />
       <Nav />
       <main className="flex-1">
         <article className="mx-auto max-w-3xl px-(--spacing-gutter) py-(--spacing-section)">
