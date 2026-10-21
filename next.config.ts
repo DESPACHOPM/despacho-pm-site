@@ -75,6 +75,8 @@ const nextConfig: NextConfig = {
         destination: "/#clientes",
         permanent: true,
       },
+      { source: "/privacy", destination: "/aviso-de-privacidad", permanent: true },
+      { source: "/contact", destination: "/contacto", permanent: true },
       {
         source: "/preguntas-frecuentes",
         destination: "/#preguntas",

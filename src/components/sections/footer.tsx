@@ -152,6 +152,9 @@ export function Footer() {
             <a href="/aviso-de-privacidad" className="hover:text-accent">
               Aviso de privacidad
             </a>
+            <Link href="/contacto" className="hover:text-accent">
+              Contacto
+            </Link>
             <Link href="/articulos" className="hover:text-accent">
               Artículos
             </Link>
