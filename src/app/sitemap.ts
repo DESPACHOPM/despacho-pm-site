@@ -5,7 +5,10 @@ import { getAllArticulos } from "@/lib/articulos";
 const siteUrl = "https://www.futurumhodie.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
+  // Fechas fijas (no "ahora"): Google confía más en el sitemap cuando lastmod
+  // solo cambia si la página realmente cambió. Actualiza esta fecha al
+  // modificar el contenido de las páginas principales.
+  const lastModified = new Date("2026-10-20T00:00:00");
   const articulos = getAllArticulos();
 
   return [

@@ -10,10 +10,23 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { Faq } from "@/components/sections/faq";
 import { FinalCta } from "@/components/sections/final-cta";
 import { Footer } from "@/components/sections/footer";
+import { JsonLd } from "@/components/json-ld";
+import { FAQS } from "@/lib/site-data";
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQS.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
 
 export default function Home() {
   return (
     <>
+      <JsonLd data={faqSchema} />
       <Nav />
       <main className="flex-1">
         <Hero />

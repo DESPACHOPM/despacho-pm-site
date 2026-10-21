@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 
 import MetaPixel from "@/components/meta-pixel";
+import { JsonLd } from "@/components/json-ld";
+import { SOCIAL_LINKS } from "@/lib/site-data";
 
 import "@fontsource/eb-garamond/400.css";
 import "@fontsource/eb-garamond/400-italic.css";
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
   description:
-    "Puedes tener buenos ingresos y aun así estar en riesgo financiero. Estructura financiera.",
+    "Asesor financiero en CDMX para profesionistas y dueños de negocio: ahorro para el retiro, protección personal y empresarial, y estrategias en pesos y dólares.",
   keywords: [
     "asesor financiero",
     "estructura financiera",
@@ -35,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
     description:
-      "Puedes tener buenos ingresos y aun así estar en riesgo financiero. Estructura financiera.",
+      "Asesor financiero en CDMX para profesionistas y dueños de negocio: ahorro para el retiro, protección personal y empresarial, y estrategias en pesos y dólares.",
     url: siteUrl,
     siteName: "Despacho PM",
     locale: "es_MX",
@@ -53,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
     description:
-      "Puedes tener buenos ingresos y aun así estar en riesgo financiero. Estructura financiera.",
+      "Asesor financiero en CDMX para profesionistas y dueños de negocio: ahorro para el retiro, protección personal y empresarial, y estrategias en pesos y dólares.",
     images: ["/images/og-image.png"],
   },
   other: {
@@ -61,10 +63,73 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "@id": `${siteUrl}/#organization`,
+  name: "Despacho PM",
+  url: siteUrl,
+  logo: `${siteUrl}/images/logo.png`,
+  image: `${siteUrl}/images/og-image.png`,
+  description:
+    "Estructura financiera para profesionistas y dueños de negocio en México: ahorro estructurado para el retiro, protección personal y protección empresarial, con estrategias en pesos y en dólares.",
+  telephone: "+52 56 2127 0724",
+  inLanguage: "es-MX",
+  areaServed: { "@type": "Country", name: "México" },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Ciudad de México",
+    addressRegion: "CDMX",
+    addressCountry: "MX",
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ],
+  },
+  knowsAbout: [
+    "Planeación de retiro",
+    "Ahorro estructurado",
+    "Protección personal",
+    "Protección empresarial",
+    "Modalidad 40 y Modalidad 10 del IMSS",
+    "Ahorro en dólares",
+  ],
+  founder: { "@id": `${siteUrl}/#pedro-miguel` },
+  sameAs: SOCIAL_LINKS.map((link) => link.href),
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": `${siteUrl}/#pedro-miguel`,
+  name: "Pedro Miguel",
+  jobTitle: "Asesor financiero y agente de seguros",
+  description:
+    "Más de 10 años en los sectores ambiental, petrolero y energético. Hoy acompaña a personas y empresas a construir estructura financiera.",
+  url: siteUrl,
+  image: `${siteUrl}/images/pedro-hero.jpg`,
+  worksFor: { "@id": `${siteUrl}/#organization` },
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    name: "Cédula de agente de seguros M370232",
+    credentialCategory: "Autorización de la Comisión Nacional de Seguros y Fianzas (CNSF)",
+  },
+  sameAs: ["https://www.linkedin.com/in/pedromiguelma"],
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="es" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <JsonLd data={organizationSchema} />
+        <JsonLd data={personSchema} />
         <MetaPixel />
         {children}
 

@@ -253,6 +253,26 @@ export const FAQS = [
     answer:
       "Es una herramienta única que te permite ver todo tu panorama actual en una sola página. Platicamos de 30 a 45 minutos, sin costo. Si no tiene sentido trabajar juntos, te lo digo directamente.",
   },
+  {
+    question: "¿Qué son la Modalidad 40 y la 10 del IMSS?",
+    answer:
+      "Son dos formas de seguir construyendo tu pensión con el IMSS por tu cuenta. La Modalidad 10 es la incorporación voluntaria de quien trabaja de forma independiente. La Modalidad 40 es la continuación voluntaria de quien ya cotizó y dejó de hacerlo. Ambas tienen requisitos y plazos, y cada caso se revisa por separado, junto con aliados especializados en el tema.",
+  },
+  {
+    question: "¿Cuánto puedo deducir de mi retiro?",
+    answer:
+      "Las aportaciones a un plan personal de retiro pueden deducirse en tu declaración anual, conforme al Artículo 151 de la Ley del ISR. La ley fija un tope que depende de tus ingresos y de la UMA. Lo calculamos con tu contador sobre tus números reales, no con promedios.",
+  },
+  {
+    question: "¿Puedo ahorrar en dólares desde México?",
+    answer:
+      "Si tienes presencia o familia en Estados Unidos, existen estrategias de ahorro en dólares. Se diseñan con aliados certificados allá, según tu situación y la de tu familia. En el diagnóstico vemos si tiene sentido en tu caso.",
+  },
+  {
+    question: "¿Atiendes fuera de la Ciudad de México?",
+    answer:
+      "Sí. Atiendo en línea a personas y empresas de todo México. De forma presencial atiendo en la Ciudad de México, de lunes a sábado y solo con cita previa.",
+  },
 ];
 
 export const SOCIAL_LINKS = [
