@@ -86,8 +86,12 @@ La sesión dura de 30 a 45 minutos, no tiene costo y sales con tus números clar
 - [Ley del Impuesto sobre la Renta](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf), Artículos 151, 152 y 185. Cámara de Diputados.
 - [Valor de la UMA 2026](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/uma/uma2026.pdf): $ 42,794.64 MXN anuales, vigente desde el 1 de febrero de 2026. INEGI.
 
-## Aviso
-
-Este artículo es informativo y de carácter general. No sustituye una asesoría fiscal personalizada: la aplicación de cada deducción depende de tu situación y conviene revisarla con tu contador. Cifras vigentes a octubre de 2026.
-
-Soy agente de seguros con cédula M370232 ante la CNSF. Parte de mi trabajo es diseñar y contratar planes de retiro para mis clientes.
+<aside class="aviso-articulo" aria-label="Aviso">
+<p class="aviso-titulo">Aviso</p>
+<p>Este artículo es informativo y de carácter general.</p>
+<p>No sustituye una asesoría fiscal personalizada.</p>
+<p>Cada deducción depende de tu situación: revísala con tu contador antes de aportar.</p>
+<p>Las cifras son vigentes a octubre de 2026 y pueden cambiar cuando se actualizan la UMA o la ley.</p>
+<p class="aviso-firma">Soy Pedro Miguel, agente de seguros con cédula M370232 ante la CNSF.</p>
+<p>Parte de mi trabajo es diseñar y contratar planes de retiro. Te lo digo para que leas este artículo con toda la información.</p>
+</aside>

@@ -184,3 +184,33 @@ h4,
     scroll-behavior: auto !important;
   }
 }
+
+/* Aviso al final de un artículo: recuadro discreto, una idea por renglón. */
+.prose-articulo .aviso-articulo {
+  margin-top: 2.5em;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, var(--color-surface-alt) 60%, transparent);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.prose-articulo .aviso-articulo p {
+  margin-top: 0.35em;
+}
+
+.prose-articulo .aviso-articulo .aviso-titulo {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  color: var(--color-primary);
+}
+
+.prose-articulo .aviso-articulo .aviso-firma {
+  margin-top: 1em;
+  font-weight: 600;
+  color: var(--color-primary);
+}
