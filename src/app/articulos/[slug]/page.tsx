@@ -8,7 +8,10 @@ import {
   ArticuloAscensorLink,
   ArticuloPisosList,
 } from "@/components/sections/articulo-pisos";
+import { JsonLd } from "@/components/json-ld";
 import { getAllArticulos, getArticuloBySlug } from "@/lib/articulos";
+
+const siteUrl = "https://www.futurumhodie.com";
 
 export function generateStaticParams() {
   return getAllArticulos().map((articulo) => ({ slug: articulo.slug }));
@@ -80,8 +83,35 @@ export default async function ArticuloPage({
   // Títulos con forma "Idea: ¿pregunta?": la pregunta va completa en su propia línea.
   const tituloPartes = articulo.titulo.match(/^(.+:)\s+(¿[^?]+\?)$/);
 
+  // Datos estructurados: le dicen a Google y a la IA que esta página es un
+  // artículo, quién lo escribió y cuándo se publicó. El autor y el editor
+  // apuntan a las fichas de Pedro y del despacho definidas en el layout.
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: articulo.titulo,
+    description: articulo.seoDescripcion ?? articulo.descripcion,
+    datePublished: articulo.fecha,
+    dateModified: articulo.fecha,
+    inLanguage: "es-MX",
+    url: `${siteUrl}/articulos/${articulo.slug}`,
+    mainEntityOfPage: `${siteUrl}/articulos/${articulo.slug}`,
+    image: `${siteUrl}/images/og-image.png`,
+    author: {
+      "@type": "Person",
+      "@id": `${siteUrl}/#pedro-miguel`,
+      name: "Pedro Miguel",
+    },
+    publisher: {
+      "@type": "FinancialService",
+      "@id": `${siteUrl}/#organization`,
+      name: "Despacho PM",
+    },
+  };
+
   return (
     <>
+      <JsonLd data={articleSchema} />
       <Nav />
       <main className="flex-1">
         <article className="mx-auto max-w-3xl px-(--spacing-gutter) py-(--spacing-section)">
