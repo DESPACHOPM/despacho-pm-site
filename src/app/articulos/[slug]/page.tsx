@@ -91,8 +91,9 @@ export default async function ArticuloPage({
     "@type": "Article",
     headline: articulo.titulo,
     description: articulo.seoDescripcion ?? articulo.descripcion,
-    datePublished: articulo.fecha,
-    dateModified: articulo.fecha,
+    // Con zona horaria de la Ciudad de México (UTC-6) para que Google valide la fecha.
+    datePublished: `${articulo.fecha}T00:00:00-06:00`,
+    dateModified: `${articulo.fecha}T00:00:00-06:00`,
     inLanguage: "es-MX",
     url: `${siteUrl}/articulos/${articulo.slug}`,
     mainEntityOfPage: `${siteUrl}/articulos/${articulo.slug}`,
