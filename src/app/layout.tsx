@@ -80,6 +80,7 @@ const organizationSchema = {
     "@type": "PostalAddress",
     addressLocality: "Ciudad de México",
     addressRegion: "CDMX",
+    postalCode: "06600",
     addressCountry: "MX",
   },
   openingHoursSpecification: {
