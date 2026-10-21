@@ -83,17 +83,22 @@ const organizationSchema = {
     postalCode: "06600",
     addressCountry: "MX",
   },
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-    ],
-  },
+  // Horario de atención (con cita previa): lunes a viernes de 9 a 18 h y
+  // sábados de 9 a 14 h.
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "09:00",
+      closes: "14:00",
+    },
+  ],
   knowsAbout: [
     "Planeación de retiro",
     "Ahorro estructurado",
