@@ -28,7 +28,7 @@ Es el miedo que más se repite en la profesionista o emprendedora que apenas emp
 
 Gana bien. No siempre sabe a dónde se va el dinero. Y cada año que pasa sin empezar, construir lo mismo le cuesta más.
 
-Hay además un costo que casi nadie ve: si tributas como persona física fuera de RESICO y cumples los requisitos, tus aportaciones a un plan personal de retiro pueden ser deducibles (Art. 151 de la Ley del ISR). Cada año que no lo usas, esa deducción no se acumula para después.
+Hay además un costo que casi nadie ve: si tributas como persona física fuera de RESICO y cumples los requisitos, tus aportaciones a un plan personal de retiro pueden ser deducibles ([Art. 151 de la Ley del ISR](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf)). Cada año que no lo usas, esa deducción no se acumula para después.
 
 (El beneficio exacto depende de cada caso; conviene revisarlo con tu contador.)
 

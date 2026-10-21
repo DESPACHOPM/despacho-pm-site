@@ -7,14 +7,14 @@ import { pageSocial } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Aviso de Privacidad | Despacho PM",
   description:
-    "Aviso de privacidad de Despacho PM (Pedro Miguel Monterrubio Alvarado), en cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).",
+    "Aviso de privacidad de Despacho PM, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).",
   alternates: {
     canonical: "/aviso-de-privacidad",
   },
   ...pageSocial({
     title: "Aviso de Privacidad | Despacho PM",
     description:
-      "Aviso de privacidad de Despacho PM, en cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).",
+      "Aviso de privacidad de Despacho PM, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP).",
     path: "/aviso-de-privacidad",
   }),
 };

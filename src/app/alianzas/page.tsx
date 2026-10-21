@@ -8,14 +8,14 @@ import { pageSocial } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Alianzas para contadores, abogados y notarios | Despacho PM",
   description:
-    "Contadores, fiscalistas, abogados, agentes inmobiliarios y notarios: seamos aliados. Sumamos estructura financiera a la relación de confianza que ya tienes con tus clientes.",
+    "Contadores, abogados, notarios y agentes inmobiliarios: seamos aliados. Sumo estructura financiera a la confianza que ya tienes con tus clientes.",
   alternates: {
     canonical: "/alianzas",
   },
   ...pageSocial({
     title: "Alianzas para contadores, abogados y notarios | Despacho PM",
     description:
-      "Contadores, fiscalistas, abogados, agentes inmobiliarios y notarios: seamos aliados. Sumamos estructura financiera a la relación de confianza que ya tienes con tus clientes.",
+      "Contadores, abogados, notarios y agentes inmobiliarios: seamos aliados. Sumo estructura financiera a la confianza que ya tienes con tus clientes.",
     path: "/alianzas",
   }),
 };

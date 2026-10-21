@@ -161,6 +161,18 @@ export default async function ArticuloPage({
             )}
         </h1>
 
+          <p className="mt-4 text-sm text-muted">
+            Por{" "}
+            <Link
+              href="/#historia"
+              rel="author"
+              className="font-semibold text-primary hover:text-accent-dark"
+            >
+              Pedro Miguel
+            </Link>
+            {" "}· Asesor financiero · Cédula M370232
+          </p>
+
           {articulo.resumen && articulo.resumen.length > 0 && (
             <aside
               aria-label="En resumen"
