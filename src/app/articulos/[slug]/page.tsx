@@ -154,6 +154,21 @@ export default async function ArticuloPage({
             )}
         </h1>
 
+          {articulo.resumen && articulo.resumen.length > 0 && (
+            <aside
+              aria-label="En resumen"
+              className="mt-8 rounded-lg border border-border bg-surface-alt/60 px-5 py-5 sm:px-6"
+            >
+              <p className="font-heading text-lg text-primary">En resumen</p>
+              <ul className="mt-3 list-disc space-y-2 pl-5 text-[16px] leading-relaxed text-foreground/85">
+                {articulo.resumen.map((linea) => (
+                  // Las dos últimas palabras van unidas para que ninguna quede sola.
+                  <li key={linea}>{linea.replace(/\s+(\S+)$/, "\u00A0$1")}</li>
+                ))}
+              </ul>
+            </aside>
+          )}
+
           <div
             className="prose-articulo mt-8 text-[17px] leading-relaxed text-foreground/85"
             dangerouslySetInnerHTML={{ __html: articulo.contentHtml }}

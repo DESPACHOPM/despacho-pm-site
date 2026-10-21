@@ -40,6 +40,9 @@ export type ArticuloSummary = {
   // titulo + " | Despacho PM" y descripcion).
   seoTitulo?: string;
   seoDescripcion?: string;
+  // Opcional: 2–3 líneas que resumen el artículo; se muestran arriba del texto
+  // en un recuadro "En resumen" (ayuda a que Google y la IA lo citen).
+  resumen?: string[];
 };
 
 export type Articulo = ArticuloSummary & {
@@ -105,6 +108,9 @@ function toSummary(slug: string, data: Record<string, unknown>): ArticuloSummary
     piso: Number.isFinite(piso) ? piso : null,
     seoTitulo: data.seoTitulo ? String(data.seoTitulo) : undefined,
     seoDescripcion: data.seoDescripcion ? String(data.seoDescripcion) : undefined,
+    resumen: Array.isArray(data.resumen)
+      ? data.resumen.map((linea) => String(linea)).filter(Boolean)
+      : undefined,
   };
 }
 

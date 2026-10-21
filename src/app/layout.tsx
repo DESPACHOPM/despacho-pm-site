@@ -19,7 +19,7 @@ const siteUrl = "https://www.futurumhodie.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Despacho PM | Tu ingreso depende de ti. Tu estructura no debería.",
+  title: "Despacho PM | Asesor financiero en CDMX para profesionistas",
   description:
     "Asesor financiero en CDMX para profesionistas y dueños de negocio: ahorro para el retiro, protección personal y empresarial, y estrategias en pesos y dólares.",
   keywords: [

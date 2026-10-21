@@ -8,6 +8,10 @@ central: no
 piso: 1
 seoTitulo: "Cómo deducir tu PPR en 2026: Artículo 151 de la Ley del ISR"
 seoDescripcion: "Cuánto puedes deducir en 2026 con un Plan Personal de Retiro, a quién le aplica y qué revisar antes de aportar. Artículo 151 de la Ley del ISR."
+resumen:
+  - "El Artículo 151 de la Ley del ISR permite deducir lo que aportas a un Plan Personal de Retiro."
+  - "En 2026 el tope es el menor entre el 10% de tus ingresos acumulables y 5 UMA anuales: $ 213,973.20 MXN."
+  - "No te beneficia si todos tus ingresos tributan en RESICO, y retirar antes de los 65 años causa ISR."
 ---
 
 Cada abril, la declaración anual llega como un resultado que nadie diseñó. A veces hay saldo a favor, a veces saldo a cargo, y casi nunca hay una estrategia detrás. Sin embargo, la Ley del ISR contempla mecanismos concretos para reducir tu base gravable mientras construyes ahorro para tu retiro. El más accesible está en el Artículo 151 y tiene nombre: Plan Personal de Retiro (PPR).
@@ -76,3 +80,14 @@ Saber cuánto te corresponde deducir requiere ver tu caso completo: tu régimen,
 La sesión dura de 30 a 45 minutos, no tiene costo y sales con tus números claros. Escríbeme **DEDUCE** por WhatsApp y la agendamos.
 
 *La tranquilidad financiera no es casualidad: es estructura.*
+
+## Fuentes
+
+- [Ley del Impuesto sobre la Renta](https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf), Artículos 151, 152 y 185. Cámara de Diputados.
+- [Valor de la UMA 2026](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/uma/uma2026.pdf): $ 42,794.64 MXN anuales, vigente desde el 1 de febrero de 2026. INEGI.
+
+## Aviso
+
+Este artículo es informativo y de carácter general. No sustituye una asesoría fiscal personalizada: la aplicación de cada deducción depende de tu situación y conviene revisarla con tu contador. Cifras vigentes a octubre de 2026.
+
+Soy agente de seguros con cédula M370232 ante la CNSF. Parte de mi trabajo es diseñar y contratar planes de retiro para mis clientes.

@@ -6,8 +6,12 @@ fecha: 2026-10-19
 situacion: MARGEN
 central: no
 piso: 2
-seoTitulo: "Protección de ingresos para profesionistas independientes | Despacho PM"
+seoTitulo: "Protección de ingresos para profesionistas independientes"
 seoDescripcion: "El seguro de gastos médicos no reemplaza tu ingreso si no puedes trabajar. Cómo medir cuántos meses aguanta tu ahorro y qué instrumento cubre cada riesgo."
+resumen:
+  - "El seguro de gastos médicos cubre el hospital, no el ingreso que dejas de recibir."
+  - "Si trabajas por tu cuenta, el primer día de incapacidad es también el primer día sin ingreso."
+  - "Mide cuántos meses cubre tu ahorro líquido: menos de seis es una brecha; menos de tres, es urgente."
 ---
 
 Un médico con catorce años de práctica privada, consultorio propio y seguro de gastos médicos vigente me dijo algo que escucho con frecuencia: "Ya estoy cubierto." Le hice una pregunta que no esperaba: si mañana no puedes atender pacientes durante tres meses, ¿cuánto tiempo dura tu familia con lo que tienes ahorrado hoy?

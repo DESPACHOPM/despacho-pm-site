@@ -5,6 +5,11 @@ slug: ascensor-patrimonial-5-pisos
 fecha: 2026-09-30
 situacion: GENERAL
 central: si
+seoTitulo: "El Ascensor Patrimonial: 5 pisos de estructura financiera"
+resumen:
+  - "Tener buenos ingresos no garantiza estabilidad: el riesgo casi siempre está en la estructura."
+  - "El Ascensor Patrimonial ordena en cinco pisos las situaciones más frecuentes: DEDUCE, MARGEN, LIQUIDEZ, BLINDAJE y PATRIMONIO."
+  - "Ubicar tu piso te dice qué te toca resolver primero."
 ---
 
 Puedes tener buenos ingresos y aun así estar en riesgo financiero.

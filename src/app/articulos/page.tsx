@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { getAllArticulos } from "@/lib/articulos";
 
 export const metadata: Metadata = {
-  title: "Artículos | Despacho PM",
+  title: "Artículos de retiro, impuestos y protección | Despacho PM",
   description:
     "Ideas y marcos para tomar decisiones financieras con estructura: ahorro, protección personal y protección empresarial.",
   alternates: {

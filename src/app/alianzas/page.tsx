@@ -5,7 +5,7 @@ import { Accountants } from "@/components/sections/accountants";
 import { Footer } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
-  title: "Alianzas | Despacho PM",
+  title: "Alianzas para contadores, abogados y notarios | Despacho PM",
   description:
     "Contadores, fiscalistas, abogados, agentes inmobiliarios y notarios: seamos aliados. Sumamos estructura financiera a la relación de confianza que ya tienes con tus clientes.",
   alternates: {
