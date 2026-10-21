@@ -126,7 +126,7 @@ const personSchema = {
   "@type": "Person",
   "@id": `${siteUrl}/#pedro-miguel`,
   name: "Pedro Miguel",
-  jobTitle: "Asesor financiero y agente de seguros",
+  jobTitle: "Asesor financiero",
   description:
     "Más de 10 años en los sectores ambiental, petrolero y energético. Hoy acompaña a personas y empresas a construir estructura financiera.",
   url: siteUrl,
@@ -134,7 +134,7 @@ const personSchema = {
   worksFor: { "@id": `${siteUrl}/#organization` },
   hasCredential: {
     "@type": "EducationalOccupationalCredential",
-    name: "Cédula de agente de seguros M370232",
+    name: "Cédula M370232",
     credentialCategory: "Autorización de la Comisión Nacional de Seguros y Fianzas (CNSF)",
   },
   sameAs: ["https://www.linkedin.com/in/pedromiguelma"],

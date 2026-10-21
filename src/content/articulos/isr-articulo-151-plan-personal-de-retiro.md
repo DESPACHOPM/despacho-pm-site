@@ -92,7 +92,7 @@ La sesión dura de 30 a 45 minutos, no tiene costo y sales con tus números clar
 <p>No sustituye una asesoría fiscal personalizada.</p>
 <p>Cada deducción depende de tu situación: revísala con tu contador antes de aportar.</p>
 <p>Las cifras son vigentes a octubre de 2026 y pueden cambiar cuando se actualizan la UMA o la ley.</p>
-<p class="aviso-firma">Soy Pedro Miguel, agente de seguros con cédula M370232 ante la CNSF.</p>
+<p class="aviso-firma">Soy Pedro Miguel, asesor financiero con cédula M370232 ante la CNSF.</p>
 <p>Parte de mi trabajo es diseñar, como un traje a la medida, el plan de retiro que se ajusta a tus objetivos.</p>
 <p>Te lo digo para que leas este artículo con toda la información.</p>
 </aside>
