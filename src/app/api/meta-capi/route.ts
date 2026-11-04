@@ -10,7 +10,53 @@ const GRAPH_VERSION = "v23.0";
 const ALLOWED_EVENTS = new Set(["PageView", "Contact", "Lead", "Schedule", "ViewContent"]);
 const ALLOWED_HOSTS = ["futurumhodie.com", "www.futurumhodie.com"];
 
+// Límite de envíos por visitante: máximo 30 eventos por minuto. Es un freno
+// básico (cada instancia del servidor lleva su propia cuenta); para un freno
+// global se puede añadir una regla de Rate Limiting en Vercel Firewall.
+const RATE_LIMIT_MAX = 30;
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const hits = new Map<string, { count: number; resetAt: number }>();
+
+function isRateLimited(key: string): boolean {
+  const now = Date.now();
+  if (hits.size > 5000) {
+    for (const [k, v] of hits) if (v.resetAt <= now) hits.delete(k);
+  }
+  const entry = hits.get(key);
+  if (!entry || entry.resetAt <= now) {
+    hits.set(key, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return false;
+  }
+  entry.count += 1;
+  return entry.count > RATE_LIMIT_MAX;
+}
+
+// Solo aceptar solicitudes que vengan del propio sitio (los navegadores
+// siempre envían Origin en un POST). Un script externo puede falsificarlo,
+// pero esto descarta el abuso casual y otros sitios web.
+function originAllowed(req: NextRequest): boolean {
+  const origin = req.headers.get("origin");
+  if (!origin) return false;
+  try {
+    return ALLOWED_HOSTS.includes(new URL(origin).hostname);
+  } catch {
+    return false;
+  }
+}
+
 export async function POST(req: NextRequest) {
+  if (!originAllowed(req)) {
+    return NextResponse.json({ ok: false }, { status: 403 });
+  }
+
+  const clientKey =
+    req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+    req.headers.get("x-real-ip") ||
+    "desconocido";
+  if (isRateLimited(clientKey)) {
+    return NextResponse.json({ ok: false }, { status: 429 });
+  }
+
   const token = process.env.META_CAPI_TOKEN;
   if (!token) {
     console.error("[meta-capi] Falta META_CAPI_TOKEN");
