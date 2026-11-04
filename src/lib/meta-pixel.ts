@@ -1,6 +1,8 @@
 // Utilidades del píxel de Meta + envío espejo a la API de conversiones
 export const PIXEL_ID = "1528140481542771";
 
+const PRODUCTION_HOSTS = ["futurumhodie.com", "www.futurumhodie.com"];
+
 type MetaEventName = "PageView" | "Contact" | "Lead" | "Schedule" | "ViewContent";
 
 type FbqFn = ((...args: unknown[]) => void) & {
@@ -93,6 +95,9 @@ function newEventId(): string {
 /** Envía el evento por el píxel (navegador) y por CAPI (servidor) con el mismo event_id. */
 export function trackMeta(eventName: MetaEventName, customData?: { content_name?: string }) {
   if (typeof window === "undefined") return;
+  // Solo medir en el dominio real: las copias de prueba de Vercel (*.vercel.app)
+  // y localhost no deben enviar eventos a Meta ni ensuciar las estadísticas.
+  if (!PRODUCTION_HOSTS.includes(window.location.hostname)) return;
   persistClickIds();
   ensurePixel();
 
