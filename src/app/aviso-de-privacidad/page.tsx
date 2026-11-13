@@ -32,7 +32,7 @@ export default function AvisoDePrivacidad() {
             Aviso de Privacidad
           </h1>
           <p className="mt-2 text-sm text-muted">
-            Última actualización: noviembre de 2025
+            Última actualización: noviembre de 2026
           </p>
 
           <div className="mt-10 space-y-10 text-[15px] leading-relaxed text-foreground/80">
@@ -299,6 +299,63 @@ export default function AvisoDePrivacidad() {
                 responderemos en un plazo máximo de 20 días hábiles. Si la
                 revocación afecta la prestación de servicios, se le
                 informará oportunamente.
+              </p>
+            </div>
+
+            <div id="eliminacion-de-datos" className="scroll-mt-24">
+              <h2 className="font-heading text-2xl text-primary">
+                Eliminación de datos
+              </h2>
+              <p className="mt-4">
+                Si nos escribió por WhatsApp, redes sociales o cualquier otro
+                medio, puede pedir en cualquier momento que eliminemos sus
+                datos personales y el historial de sus conversaciones.
+              </p>
+              <h3 className="mt-6 font-heading text-lg text-primary">
+                Cómo solicitarla
+              </h3>
+              <ol className="mt-3 list-decimal space-y-2 pl-5">
+                <li>
+                  Envíe un correo a{" "}
+                  <a
+                    href="mailto:monterrubio_si@outlook.com"
+                    className="text-primary underline underline-offset-2 hover:text-accent-dark"
+                  >
+                    monterrubio_si@outlook.com
+                  </a>{" "}
+                  con el asunto &ldquo;Eliminar mis datos&rdquo;.
+                </li>
+                <li>
+                  Indique su nombre y el número de teléfono con el que nos
+                  contactó.
+                </li>
+                <li>
+                  También puede pedirlo por WhatsApp, desde el mismo número
+                  con el que nos escribió.
+                </li>
+              </ol>
+              <h3 className="mt-6 font-heading text-lg text-primary">
+                Qué sucede después
+              </h3>
+              <ul className="mt-3 list-disc space-y-2 pl-5">
+                <li>
+                  Confirmaremos la recepción de su solicitud en un plazo máximo
+                  de 15 días hábiles.
+                </li>
+                <li>
+                  Sus datos se conservarán por 6 meses adicionales, únicamente
+                  para atender cualquier aclaración o responsabilidad
+                  derivada de su solicitud.
+                </li>
+                <li>
+                  Transcurrido ese plazo, si no recibimos respuesta de su
+                  parte, sus datos se eliminarán de forma definitiva.
+                </li>
+              </ul>
+              <p className="mt-4">
+                Los datos que la ley nos obligue a conservar, por ejemplo los
+                relacionados con una póliza contratada, se mantendrán durante
+                el tiempo que la normativa exija.
               </p>
             </div>
 
