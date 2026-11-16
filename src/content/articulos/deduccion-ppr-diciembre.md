@@ -1,15 +1,15 @@
 ---
 titulo: "Diciembre decide tu declaración de abril: lo que conviene resolver de tu PPR antes de que cierre el ejercicio"
-descripcion: "La deducción de tu Plan Personal de Retiro no se decide en abril: se decide antes del 31 de diciembre. Tope, comprobantes, errores comunes y checklist de cierre."
+descripcion: "La deducción de tu Plan Personal de Retiro no se decide en abril: se decide antes de que cierre diciembre. Tope, comprobantes, errores comunes y checklist de cierre."
 slug: deduccion-ppr-diciembre
 fecha: 2026-11-16
 situacion: DEDUCE
 central: no
 piso: 1
-seoTitulo: "Deducción del PPR: qué resolver antes del 31 de diciembre"
-seoDescripcion: "Lo que aportas a tu PPR después del 31 de diciembre ya no cuenta para tu declaración de abril. Tope 2026, comprobantes y checklist de cierre."
+seoTitulo: "Deducción PPR: qué resolver antes de que cierre diciembre"
+seoDescripcion: "Lo que aportas a tu PPR después de que cierre diciembre ya no cuenta para tu declaración de abril. Tope 2026, comprobantes y checklist de cierre."
 resumen:
-  - "Lo que aportes a tu PPR después del 31 de diciembre ya cuenta para el año siguiente."
+  - "Lo que aportes a tu PPR después de que cierre diciembre ya cuenta para el año siguiente."
   - "El tope del PPR va aparte del límite general de deducciones personales."
   - "Una aportación programada desde enero evita decidir con prisa en diciembre."
 ---
@@ -18,11 +18,15 @@ La deducción de tu Plan Personal de Retiro no se decide en abril. Se decide ant
 
 Lo que aportes después de esa fecha ya cuenta para el año siguiente. En abril solo cobras lo que sembraste durante el año.
 
-Por eso conviene revisarlo con tiempo, sobre todo si presentas declaración anual o trabajas por nómina y quieres recuperar parte del ISR que te retuvieron.
+Por eso conviene revisarlo antes, sobre todo si presentas declaración anual o trabajas por nómina y quieres recuperar parte del ISR que te retuvieron.
+
+Y si todavía no tienes plan, el corte para abrirlo y que tu aportación cuente este año llega antes del 31. Pregúntalo con tiempo.
+
+Antes de seguir: ¿todos tus ingresos tributan en RESICO? Entonces esta deducción no te aplica. Sí te aplica si trabajas por nómina o tributas fuera de RESICO.
 
 ## ¿Por qué la deducción de tu PPR se gana en diciembre?
 
-La ley permite deducir lo que aportas a tu Plan Personal de Retiro dentro del ejercicio. El límite funciona así:
+El artículo 151 de la Ley del ISR permite deducir lo que aportas a tu Plan Personal de Retiro dentro del ejercicio, si se cumplen los requisitos. El límite funciona así:
 
 - **Hasta el 10%** de tus ingresos acumulables del año.
 - **Sin pasar de 5 UMA** elevadas al año, que en 2026 equivalen a $ 213,973.20 MXN.
@@ -101,7 +105,7 @@ Checklist para guardar y revisar en diciembre:
 - Mi aportación se acredita dentro del ejercicio.
 - Pagué cada aportación desde una cuenta a mi nombre.
 
-Si respondes "sí" a los cinco, tu deducción de este año está en orden. Si alguno queda en duda, todavía estás a tiempo.
+Si respondes "sí" a los cinco, tu deducción de este año va por buen camino. Si alguno queda en duda, todavía estás a tiempo.
 
 ## El siguiente paso
 
