@@ -119,6 +119,12 @@ function toSummary(slug: string, data: Record<string, unknown>): ArticuloSummary
  * espacio sin salto, para que ninguna palabra quede sola en la última línea
  * (también en navegadores que no soportan text-wrap: pretty).
  */
+// Une las dos últimas palabras de un texto plano (descripciones en tarjetas)
+// para que ninguna palabra quede sola en la última línea.
+export function sinPalabraSola(texto: string): string {
+  return texto.replace(/\s+(\S+)\s*$/, "\u00A0$1");
+}
+
 function evitarPalabraSola(html: string): string {
   return html.replace(
     /([^\s>])[ \t]+([^\s<>]+)(?=<\/(?:p|li|h2|h3)>)/g,

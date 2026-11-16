@@ -5,7 +5,7 @@ import { Nav } from "@/components/sections/nav";
 import { Footer } from "@/components/sections/footer";
 import { Reveal } from "@/components/motion/reveal";
 import { Badge } from "@/components/ui/badge";
-import { getAllArticulos } from "@/lib/articulos";
+import { getAllArticulos, sinPalabraSola } from "@/lib/articulos";
 import { pageSocial } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -72,7 +72,7 @@ export default function Articulos() {
                     {formatFecha(central.fecha)}
                   </p>
                   <p className="mt-3 text-[15px] leading-relaxed text-foreground/80">
-                    {central.descripcion}
+                    {sinPalabraSola(central.descripcion)}
                   </p>
                 </Link>
               </Reveal>
@@ -91,7 +91,7 @@ export default function Articulos() {
                     {formatFecha(articulo.fecha)}
                   </p>
                   <p className="mt-3 text-[15px] leading-relaxed text-foreground/80">
-                    {articulo.descripcion}
+                    {sinPalabraSola(articulo.descripcion)}
                   </p>
                 </Link>
               </Reveal>

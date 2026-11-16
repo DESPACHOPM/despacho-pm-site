@@ -10,7 +10,11 @@ import {
   ArticuloPisosList,
 } from "@/components/sections/articulo-pisos";
 import { JsonLd } from "@/components/json-ld";
-import { getAllArticulos, getArticuloBySlug } from "@/lib/articulos";
+import {
+  getAllArticulos,
+  getArticuloBySlug,
+  sinPalabraSola,
+} from "@/lib/articulos";
 
 const siteUrl = "https://www.futurumhodie.com";
 
@@ -209,7 +213,7 @@ export default async function ArticuloPage({
                         {otro.titulo}
                       </span>
                       <span className="mt-1 block text-[15px] leading-relaxed text-foreground/75">
-                        {otro.descripcion}
+                        {sinPalabraSola(otro.descripcion)}
                       </span>
                     </Link>
                   </li>
